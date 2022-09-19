@@ -1,0 +1,43 @@
+site_name: 'Ofimática y archivo de documentos'
+
+nav:
+  - Inicio: index.md
+  - Tema 1 - Información a través de la red: 01-redes.md
+  - Tema 2 - Comunicaciones internas y externas: 02-comunicaciones.md
+  - Tema 3 - Reprografía: 03-reprografia.md
+  - Tema 4 - Procesadores de texto: 04-procesadores.md
+  - Tema 5 - Hojas de cálculo: 05-excel.md
+  - Tema 6 - Presentaciones PPT: 06-ppt.md
+  - Tema 7 - Encuadernación: 07-encuadernacion.md
+
+
+theme:
+  name: material
+
+  palette:
+    scheme: slate
+    primary: 'teal'
+    accent: 'deep orange'
+  
+  font:
+    text: Inter
+  
+  language: es
+  
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+
+    - header.autohide
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - glightbox
