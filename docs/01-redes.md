@@ -138,3 +138,5 @@ Fue creada en el año 1993 por diferentes empresas de tales como **HP**, **IBM**
 2. Te han pedido que conectes 4 ordenadores entre sí, mediante cable, para poder intercambiar archivos y carpetas con el mismo sistema operativo. Ten en cuenta que ninguno de los 4 ordenadres _**DEBE SALIR A INTERNET**_. Elabora un documento PDF con un esquema que contenga todos los elementos necesarios (tanto físicos como protocolos) para realizar dicha tarea y una breve descripción de lo que tendrías que hacer a nivel infraestructural. Puedes utilizar canva para hacer el esquema. A este archivo PDF llámalo **Ejercicio-1-2.pdf** y envíalo.
 
 3. Haz lo mismo que en el ejercicio anterior pero creando una red SIN CABLES, utilizando el protocolo WI-FI y esta vez _**SI QUE DEBEN PODER SALIR A INTERNET**_.
+
+4. Te has comprado un pendrive de 4GB de tamaño y una tasa de transferencia de 2Mb/s ¿Cuánto tiempo tardará el sistema en llenar el dispositivo? Calcula el tiempo en minutos y explica el proceso realizado.
