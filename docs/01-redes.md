@@ -252,3 +252,14 @@ Un buscador normal recopila la información de las páginas mediante su indexaci
 5. Haz una búsqueda de Internet sobre el término o términos que quieras y compara los resultados en, al menos, 3 buscadores diferentes y explica las diferencias que encuentras; tanto en posición del mismo resultado (la misma web), descripción, título, interfraz gráfica y por último, la sensación que te da al buscar en dicho servidor. Añade cuál de todos ellos te gusta más y por qué.
 
 6. Haz una búsqueda de al menos 10 **metabuscadores** de diferentes tipos (puedes repetir) que encuentres por Internet y comenta un poco su historia, cómo utilizarlo y a qué usuari@s va dirigido.
+
+7. Realiza un documento con información acerca de programas P2P (Peer To Perr) con al menos 8 de ellos que estén especializados en lo siguiente:
+
+    - Música
+    - Películas
+    - Archivos en general
+
+!!! INFO "Formato del documento"
+    **Nombre del programa** <br>
+    Descripción del programa, lo que hace, quién lo creo y cuándo ¿se sigue utilizando?<br>
+    Una foto de su logotipo
