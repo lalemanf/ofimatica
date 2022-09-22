@@ -253,7 +253,7 @@ Un buscador normal recopila la información de las páginas mediante su indexaci
 
 6. Haz una búsqueda de al menos 10 **metabuscadores** de diferentes tipos (puedes repetir) que encuentres por Internet y comenta un poco su historia, cómo utilizarlo y a qué usuari@s va dirigido.
 
-7. Realiza un documento con información acerca de programas P2P (Peer To Perr) con al menos 8 de ellos que estén especializados en lo siguiente:
+7. Realiza un documento con información acerca de programas P2P (Peer To Peer) con al menos 8 de ellos que estén especializados en lo siguiente:
 
     - Música
     - Películas
