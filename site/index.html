@@ -10,13 +10,13 @@
 <title>Ofimática y archivo de documentos</title>
 <link href="assets/stylesheets/main.2e8b5541.min.css" rel="stylesheet"/>
 <link href="assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
-<meta content="#009485" name="theme-color"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
 <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
 <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>html.glightbox-open { overflow: initial; height: 100%; }</style><script src="assets/javascripts/glightbox.min.js"></script></head>
-<body data-md-color-accent="deep-orange" data-md-color-primary="teal" data-md-color-scheme="slate" dir="ltr">
+<body data-md-color-accent="deep-orange" data-md-color-primary="teal" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
@@ -48,6 +48,46 @@
               Inicio
             
           </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="deep-orange" data-md-color-media="" data-md-color-primary="teal" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="deep-orange" data-md-color-media="" data-md-color-primary="teal" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Búsqueda" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Búsqueda" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Limpiar" class="md-search__icon md-icon" tabindex="-1" title="Limpiar" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -103,11 +143,6 @@
         Tema 6 - Presentaciones PPT
       </a>
 </li>
-<li class="md-nav__item">
-<a class="md-nav__link" href="07-encuadernacion/">
-        Tema 7 - Encuadernación
-      </a>
-</li>
 </ul>
 </nav>
 </div>
@@ -126,7 +161,12 @@
 <h1 id="bienvenids-a-ofimatica-y-archivo-de-documentos">Bienvenid@s a Ofimática y archivo de documentos</h1>
 <p>En esta asignatura aprenderemos a utilizar las herramientas más utilizadas, a nivel de ofimática, en las empresas y a desenvolvernos con los ordenadores en numerosos escenarios diferentes.</p>
 <p>A continuación se enumeran los criterios de evaluación que van a ser expuestos en este curso para la asignatura:</p>
-<div class="admonition example">
+<figure>
+<p><a class="glightbox" href="media/01-ofimatica.png"><img alt="PAN" src="media/01-ofimatica.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<div class="admonition note">
 <p class="admonition-title">Tema 1 ~ INFORMACIÓN A TRAVÉS DE LA RED</p>
 <ul>
 <li>Se han identificado las distintas redes informáticas a las que podemos acceder</li>
@@ -137,7 +177,161 @@
 <li>Se ha comprobado la veracidad de la información localizada</li>
 <li>Se ha valorado la utilidad de páginas institucionales y de Internet en general para la realización de trámites administrativos</li>
 </ul>
+<details class="question">
+<summary>Desglose</summary>
+<ul>
+<li>Redes informáticas</li>
+<li>Búsqueda activa en redes informáticas</li>
+</ul>
+</details>
 </div>
+<div class="admonition tldr">
+<p class="admonition-title">Tema 2 ~ COMUNICACIONES INTERNAS Y EXTERNAS</p>
+<ul>
+<li>Se han identificado los diferentes procedimientos de trasmisión y recepción de mensajes internos y externos</li>
+<li>Se ha utilizado el correo electrónico para enviar y recibir mensajes, tanto internos como externos</li>
+<li>Se han anexado documentos, vínculos, entre otros en mensajes de correo electrónico</li>
+<li>Se han empleado las utilidades del correo electrónico para clasificar contactos y listas de distribución de información entre otras</li>
+<li>Se han aplicado criterios de prioridad, importancia y seguimiento entre otros en el envío de mensajes siguiendo las instrucciones recibidas</li>
+<li>Se han comprobado las medidas de seguridad y confidencialidad en la custodia o envío de información siguiendo pautas prefijadas</li>
+<li>Se ha organizado la agenda incluyendo tareas, avisos y otras herramientas de planificación del trabajo</li>
+</ul>
+<details class="question">
+<summary>Desglose</summary>
+<ul>
+<li>Procedimientos de trasmisión y recepción de mensajes internos y externos</li>
+<li>Envío y recepción de mensajes por correo</li>
+<li>Medidas de seguridad y confidencialidad en la custodia o envío de información</li>
+<li>Organización de la agenda para incluir tareas, avisos y otras herramientas de planificación del trabajo</li>
+</ul>
+</details>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Tema 3 ~ REPROGRAFÍA</p>
+<ul>
+<li>Se han identificado las funciones básicas, prestaciones y procedimientos simples de los procesadores de textos y autoedición</li>
+<li>Se han identificado las funciones y utilidades que garanticen las normas de seguridad, integridad y confidencialidad de la información</li>
+<li>Se ha localizado el documento, abierto y guardado posteriormente el documento en el formato y dirección facilitados, nombrándolos significativamente para su posterior acceso</li>
+<li>Se han configurado las distintas páginas del documento ciñéndose a los originales o indicaciones propuestas: márgenes, dimensiones y orientación, tablas, encabezados y pies de página, encolumnados, bordes, sombreados u otros</li>
+<li>Se ha trabajado con la opción de tablas han elaborado los documentos con exactitud y con la destreza adecuada, aplicando los formatos y estilos de texto, tablas indicadas, o sobre las plantillas predefinidas</li>
+<li>Se han corregido los posibles errores cometidos al reutilizar o introducir la información Se han integrado objetos simples en el texto, en el lugar y forma adecuados</li>
+<li>Se han configurado las diferentes opciones de impresión en función de la información facilitada</li>
+<li>Se ha realizado la impresión de los documentos elaborados</li>
+<li>Se han utilizado las funciones y utilidades del procesador de textos que garanticen la seguridad, integridad y confidencialidad de la información de acuerdo con las indicaciones recibidas</li>
+</ul>
+<details class="question">
+<summary>Desglose</summary>
+<ul>
+<li>Equipos de reproducción: Tipos, componentes, características de los dispositivos</li>
+<li>Identificación de incidencias elementales en equipos de reprografía</li>
+<li>Funcionamiento de los equipos de reprografía —fotocopiadoras, impresoras, escáneres, reproductoras, perforadoras, encuadernadoras u otros—</li>
+<li>Software de digitalización de documentos</li>
+<li>Obtención de copias en formato documental y/o digital</li>
+<li>Observación de los procedimientos de calidad en la reproducción de documentos</li>
+<li>Procedimientos de seguridad en la utilización de equipos de reproducción</li>
+<li>Eliminación de residuos: Normativa aplicable</li>
+</ul>
+</details>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tema 4 ~ PROCESADORES DE TEXTO</p>
+<ul>
+<li>Se han utilizado los diversos tipos de datos y referencia para celdas, rangos, hojas y libros</li>
+<li>Se han aplicado fórmulas y funciones básicas</li>
+<li>Se han generado y modificado gráficos de diferentes tipos</li>
+<li>Se ha utilizado la hoja de cálculo como base de datos sencillos</li>
+<li>Se ha utilizado aplicaciones y periféricos para introducir textos, números, códigos e imágenes</li>
+<li>Se han aplicado las reglas de ergonomía y salud en el desarrollo de las actividades</li>
+</ul>
+<details class="question">
+<summary>Desglose</summary>
+<ul>
+<li>Equipos, útiles y herramientas de encuadernación funcional: Tipos, características, funcionamiento, detección de posibles incidencias</li>
+<li>Materiales de la encuadernación funcional: Tipos, características y su utilización</li>
+<li>Técnicas de encuadernación funcional: Corte, perforado y encuadernado funcional</li>
+<li>Equipos, útiles y herramientas de encuadernación funcional en condiciones de seguridad</li>
+<li>Eliminación de residuos respetando la normativa</li>
+</ul>
+</details>
+</div>
+<div class="admonition check">
+<p class="admonition-title">Tema 5 ~ HOJAS DE CÁLCULO</p>
+<ul>
+<li>Se han identificado las opciones básicas de las aplicaciones de presentaciones</li>
+<li>Se reconocen los distintos tipos de vista asociados a una presentación</li>
+<li>Se han aplicado y reconocido las distintas tipografías y normas básicas de composición, diseño y utilización del color</li>
+<li>Se han creado presentaciones sencillas incorporando texto, gráficos, objetos y archivos multimedia</li>
+<li>Se han diseñado plantillas de presentaciones</li>
+<li>Se han utilizado periféricos para ejecutar presentaciones asegurando el correcto funcionamiento</li>
+</ul>
+<details class="question">
+<summary>Desglose</summary>
+<ul>
+<li>Estructura y funciones de un procesador de texto</li>
+<li>Gestión de documentos en procesadores de textos</li>
+<li>Aplicación de formato a documentos</li>
+<li>Utilización de plantillas</li>
+<li>Edición de textos y tablas</li>
+<li>Inserción de objetos</li>
+<li>Configuración e impresión de textos</li>
+</ul>
+</details>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Tema 6 ~ PRESENTACIONES PTT</p>
+<ul>
+<li>Se han identificado los principales componentes y necesidades de mantenimiento, identificando las incidencias elementales, de acuerdo con los manuales de uso y sistemas de ayuda</li>
+<li>Se ha descrito el funcionamiento de las fotocopiadoras, impresoras, escáneres, reproductoras, perforadoras, encuadernadoras u otros</li>
+<li>Se han identificado las posibles incidencias básicas de equipos de reproducción e informáticos, describiendo posibles actuaciones</li>
+<li>Se han realizado las tareas de limpieza y mantenimiento de útiles de encuadernación, y los ajustes pertinentes para un</li>
+<li>Se han identificado los distintos recursos consumibles —tintas y líquidos, papel, cintas y cartuchos de impresión, tóner u otros— relacionándoles con los equipos de reproducción e informáticos</li>
+<li>Se ha manejado los equipos, asumiendo el compromiso de mantener y cuidar éstos, y obteniendo el máximo provecho a los medios utilizados en el proceso, evitando costes y desgastes innecesarios:</li>
+<li>Se ha realizado las siguientes consideraciones durante la actividad:<ul>
+<li>Poner a punto y limpiar las máquinas</li>
+<li>Detectar pequeñas averías mecánicas solucionando, si es posible, las contingencias observadas</li>
+<li>Aprovisionar con los materiales necesarios las máquinas</li>
+<li>Realizar las pruebas de funcionamiento básico de los equipos informáticos y de reproducción</li>
+<li>Realizar labores de mantenimiento básico de los equipos informáticos y de oficina</li>
+<li>Sustituir consumibles, de entre diversos tipos facilitados, en el equipo que corresponda</li>
+<li>Tomar las medidas de seguridad necesarias para comprobar el funcionamiento básico en modo seguro</li>
+<li>Utilizar los equipos de protección de acuerdo con los conectores y terminales implicados</li>
+</ul>
+</li>
+</ul>
+<details class="question">
+<summary>Desglose</summary>
+<ul>
+<li>Tipos de datos Referencias a celdas Rangos Hojas Libros</li>
+<li>Utilización de fórmulas y funciones</li>
+<li>Creación y modificación de gráficos</li>
+<li>Reglas ergonómicas</li>
+<li>Elaboración de distintos tipos de documentos</li>
+</ul>
+</details>
+</div>
+<!-- 
+!!! WARNING "Tema 7 ~ ENCUADERNACIÓN"
+    - Se ha identificado la documentación a encuadernar describiendo las características para su encuadernación, y los criterios de ordenación más apropiados
+    - Se han identificado los distintos útiles y herramientas empleados en las operaciones de encuadernación funcional —guillotina, máquinas de perforar de papel, cizallas, u otras—, describiendo sus mecanismos, funciones y utilización
+    - Se han identificado los distintos tipos de materiales —canutillos, grapas, espirales, anillas, cubiertas u otros— utilizados en la encuadernación funcional
+    - Se han descrito los sistemas de reciclaje en función de la naturaleza de los residuos producidos en la encuadernación funcional
+    - Se identificado y descrito los riesgos profesionales derivados de la utilización de las máquinas y herramientas de encuadernación funcional y sus equipos de protección
+    - Se ha identificado y comprobado el estado de funcionamiento de las herramientas de encuadernación funcional
+    - Se ha organizado la documentación a encuadernar, ordenándola de acuerdo con los criterios establecidos y la correcta utilización de los medios disponibles
+    - Se ha utilizado la cizalla u otros útiles análogos realizando distintos cortes de papel con precisión, observando las medidas de seguridad correspondientes
+    - Se ha utilizado la máquina de perforar papel de forma correcta
+    - Se han realizado encuadernaciones en sus diversas formas —encanutado, grapado, espiralado, anillado u otras—asignando el tipo de cubiertas en función de las características del documento y de acuerdo con la información facilitada
+    - Se han desechado los residuos en distintos envases de reciclado conforme a su naturaleza
+    - Se han aplicado las precauciones y equipos de protección necesarios para realizar con seguridad la encuadernación funcional
+    - Se ha comprobado que la encuadernación funcional realizada cumple con los criterios de calidad facilitados e inherentes al tipo de encuadernación
+
+    ??? QUESTION "Desglose"
+        - Identificación de opciones básicas de las aplicaciones de presentaciones
+        - Diseño y edición de diapositivas Tipos de vistas
+        - Formateo de diapositivas, textos y objetos
+        - Utilización de plantillas y asistentes
+        - Presentación para el público: conexión a un proyector y configuración
+-->
 </article>
 </div>
 </div>
