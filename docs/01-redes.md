@@ -272,3 +272,13 @@ Un buscador normal recopila la información de las páginas mediante su indexaci
     - Bing
     - Ecosia
     - DuckDuckGo
+
+9.- Haz un trabajo en grupos de 2 personas relacionado con los metabuscadores que conteste a las siguientes preguntas.
+
+!!! DANGER "Metabuscadores"
+    - ¿Qué es un Metabuscador? Historia ¿Cuál fue el primero?¿Existe aún?
+    - ¿En qué se diferencia de un buscador normal?
+    - Enumera 10 metabuscadores diferentes. Añade capturas de cada uno de los metabuscadores y una pequeña descripción de cada uno de ellos **(mínimo 100 palabras)**
+    - ¿Cuál es el mejor para resultados de viajes? Busca **3 destinos diferentes** y haz una captura de los resultados
+    - ¿cuál es el mejor para billetes de avión?
+    - ¿Google es un metabuscador? ¿tiene algún meta-buscador? Si es así, pon la url y di de qué se trata.
