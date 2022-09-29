@@ -43,6 +43,7 @@ theme:
     - navigation.top
 
     - header.autohide
+    - toc.integrate
 
 markdown_extensions:
   - attr_list
@@ -50,6 +51,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
 
 plugins:
   - glightbox

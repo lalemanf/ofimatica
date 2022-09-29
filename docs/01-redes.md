@@ -283,7 +283,7 @@ Algunos sistemas operativos (como Linux) tienen una herramienta integrada que pu
 
 
 
-## EJERCICIOS
+## 🧰 EJERCICIOS
 
 1.- Realiza una búsqueda por Internet de los diferentes tipos de red de ordenadores que existen y escribe en un documento las propiedades más significativas de cada una de ellas, incluyendo cuándo se creó y quién la creo. El documento debe recoger las siguientes redes:
     - LAN
@@ -345,9 +345,20 @@ Algunos sistemas operativos (como Linux) tienen una herramienta integrada que pu
 
 !!! DANGER "Envía un archivo .zip"
     - Mete todos los archivos en un .zip junto con un archivo que se llame "hash.txt" donde meterás los códigos Hash de todos los archivos de la siguiente manera (hash.txt):
-        - vacio.txt ~ KALSJHD789Y398DHASDHASLDUASHDLKJASD
-        - nombre-apellidos.txt con nombre ~ SALKDU7SA89UDASDIUJASD908J
-        - nombre-apellidos.doc con nombre ~ ASKLJHDKJSAH32KLJ4H3L2KJHL
-        - nombre-apellidos.pdf con nombre ~ 89DUAS89DU7SA89DAS89DSA7FF
-        - nombre-apellidos.jpg con nombre ~ DAS908DSADSAJDKLASJD09ASNM
+        
 
+
+=== "hash.txt"
+        vacio.txt ~ KALSJHD789Y398DHASDHASLDUASHDLKJASD
+        nombre-apellidos.txt con nombre ~ SALKDU7SA89UDASDIUJASD908J
+        nombre-apellidos.doc con nombre ~ ASKLJHDKJSAH32KLJ4H3L2KJHL
+        nombre-apellidos.pdf con nombre ~ 89DUAS89DU7SA89DAS89DSA7FF
+        nombre-apellidos.jpg con nombre ~ DAS908DSADSAJDKLASJD09ASNM
+
+=== "ejercicios-11-12.zip"
+        hash.txt
+        vacio.txt
+        nombre-apellidos.txt
+        nombre-apellidos.doc
+        nombre-apellidos.pdf
+        nombre-apellidos.jpg
