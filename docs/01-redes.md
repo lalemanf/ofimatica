@@ -229,6 +229,55 @@ Un metabuscador es un sistema que localiza información en los motores de búsqu
 Un buscador normal recopila la información de las páginas mediante su indexación, como Google o bien mantiene un amplio directorio temático, como Yahoo!. La definición simplista sería que un metabuscador es un buscador en buscadores. Además, una vez realizada la búsqueda, los resultados pueden ser refinados hasta dar con la información más útil.
 
 
+## ☁️ Documentos en La Nube
+
+La nube, relacionando el término con Internet, es cuando hacemos uso de servidores externos para elaborar documentos y que se alojen en el mismo o en varios a través de distintas redes de Internet.
+
+Estos servidores están preparados para ejecutar programas desde el propio servidor en el mismo navegador (o cliente) del usuario, brindando servicios que el propio usuario no tiene instalados en su PC, _tablet_ o teléfono móvil, cómo es el caso de **Docs de Google**
+
+!!! WARNING "Servicios en La Nube"
+    - [Google Docs](https://docs.google.com/){target="_blank"}
+    - [Canva](https://www.canva.com/es_es/){target="_blank"}
+    - [Office 365](https://www.office.com/){target="_blank"}
+    - [Notion](https://www.notion.so/es-es){target="_blank"}
+    - [Amazon Drive](https://www.amazon.es/clouddrive){target="_blank"}
+    - [Mega](https://mega.nz/){target="_blank"}
+    - [DropBox](https://www.dropbox.com/){target="_blank"}
+
+Cualquier de ellos nos permite crear nuevos documentos, subir docuemtnos existentes en nuestro PC, compartir con otras personas de manera pública o privada (mediante contraseña o enlace personalizado) y sincronizar archivos con nuestro dispositivo de manera automátca.
+
+
+## ⚠️ Veracidad de la información
+
+<figure markdown>
+  ![Redes](media/01-wikipedia.png){ width="400" }
+  <figcaption>Wikipedia ~ la enciclopedia libre</figcaption>
+</figure>
+
+Internet es muy grande y prácticamente cualquier persona tiene acceso a la red; pudiendo crear y editar información que luego los buscadores indexan en sus servidores.
+
+Es por éso que debemos tener en cuenta que **no siempre es cierta** la información que encontramos en la red, independientemente de que provenga de páginas conocidas y famosas como Wikipedia.
+
+En Wikipedia, por ejemplo, cualquier persona puede editar contenido ya que es una enciclopedia libre y abierta al público.
+
+Por otro lado, una persona con conocimientos básicos de lenguaje de marcas (HTML) puede crear una página web con información totalmente falsa y colgarla en Internet, que aparezca en Google o en cualquier otro buscador y tú, como usuario, caigas en dicha web y te creas lo que salga en dicha web.
+
+### Función HASH
+
+<figure markdown>
+  ![Redes](media/01-hash.png){ width="200" }
+  <figcaption></figcaption>
+</figure>
+
+Una función _hash_ criptográfica es, como su nombre lo indica, una función matemática utilizada en criptografía donde las más comunes agarran entradas de longitudes versátiles para restituir salidas de una longitud permanente.
+
+En muchas páginas de descarga de archivos podremos ver códigos alfanuméricos al lado de los enlaces de descargas, como por ejemplo en [Linux Mint](https://www.linuxmint.com/edition.php?id=299){terget="_blank"}
+
+Estos códigos determinan la veracidad de los archivos que nos descargamos.
+
+¿Por qué se hace ésto? para saber con exactitud si el archivo que nos hemos descargado proviene de una web de confianza o para saber si se ha descargado correctamente el archivo.
+
+Algunos sistemas operativos (como Linux) tienen una herramienta integrada que puede ejecutarse en la consola o terminal para comprobar este código **_Hash_**
 
 
 
@@ -282,3 +331,23 @@ Un buscador normal recopila la información de las páginas mediante su indexaci
     - ¿Cuál es el mejor para resultados de viajes? Busca **3 destinos diferentes** y haz una captura de los resultados
     - ¿cuál es el mejor para billetes de avión?
     - ¿Google es un metabuscador? ¿tiene algún meta-buscador? Si es así, pon la url y di de qué se trata.
+
+10.- Crea una cuenta en [Canva](https://www.canva.com/es_es/){target="_blank"} y otra en [Notion](https://www.notion.so/es-es){target="_blank"}. Genera contenido en cada una de las plataformas y comparte los enlaces vía aules con lo que has creado.
+
+11.- Crea un documento en blanco en el bloc de notas (o cualquier otro editor de archivos de texto plano) y guárdalo en el ordenador. Después, con la consola (o terminal) obtén el código Hash de dicho archivo. Seguidamente, pon tu nombre y apellidos dentro del archivo de texto _.txt_, guárdalo y obtén el nuevo código hash.
+
+12.- Haz lo mismo que en el ejercicio anterior pero en vez de crear un archivo .txt crea los siguientes archivos con el mismo contenido (tu nombre y apellidos):
+
+    - Archivo .doc (a través de Google Drive)
+    - Archivo .pdf (a través de Google Drive)
+    - Archivo .jpg de 300x150 píxeles (a través del programa GIMP)
+    - Sube el archivo que has creado _.txt_ a Google Drive
+
+!!! DANGER "Envía un archivo .zip"
+    - Mete todos los archivos en un .zip junto con un archivo que se llame "hash.txt" donde meterás los códigos Hash de todos los archivos de la siguiente manera (hash.txt):
+        - vacio.txt ~ KALSJHD789Y398DHASDHASLDUASHDLKJASD
+        - nombre-apellidos.txt con nombre ~ SALKDU7SA89UDASDIUJASD908J
+        - nombre-apellidos.doc con nombre ~ ASKLJHDKJSAH32KLJ4H3L2KJHL
+        - nombre-apellidos.pdf con nombre ~ 89DUAS89DU7SA89DAS89DSA7FF
+        - nombre-apellidos.jpg con nombre ~ DAS908DSADSAJDKLASJD09ASNM
+
