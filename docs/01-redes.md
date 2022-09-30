@@ -300,7 +300,7 @@ Algunos sistemas operativos (como Linux) tienen una herramienta integrada que pu
 
 5.- ❎ Haz una búsqueda de Internet sobre el término o términos que quieras y compara los resultados en, al menos, 3 buscadores diferentes y explica las diferencias que encuentras; tanto en posición del mismo resultado (la misma web), descripción, título, interfraz gráfica y por último, la sensación que te da al buscar en dicho servidor. Añade cuál de todos ellos te gusta más y por qué.
 
-~~6.- Haz una búsqueda de al menos 10 **metabuscadores** de diferentes tipos (puedes repetir) que encuentres por Internet y comenta un poco su historia, cómo utilizarlo y a qué usuari@s va dirigido.~~
+<!-- ~~6.- Haz una búsqueda de al menos 10 **metabuscadores** de diferentes tipos (puedes repetir) que encuentres por Internet y comenta un poco su historia, cómo utilizarlo y a qué usuari@s va dirigido.~~ -->
 
 7.- ❎ Realiza un documento con información acerca de programas P2P (Peer To Peer) con al menos 8 de ellos que estén especializados en lo siguiente:
 
@@ -313,7 +313,7 @@ Algunos sistemas operativos (como Linux) tienen una herramienta integrada que pu
     Descripción del programa, lo que hace, quién lo creo y cuándo ¿se sigue utilizando?<br>
     Una foto de su logotipo
 
-~~8.- Realiza una búsqueda del término o frase que quieras en los distintos buscadores que se listan a continuación. Elabora un documento con los resultados de cada uno de los buscadores adjuntando una captura de pantalla con los 3 primeros resultados de cada uno de ellos. Para terminar, comenta cuál de ellos te ha gustado más en función de los resultados obtenidos y explica por qué.~~
+<!-- ~~8.- Realiza una búsqueda del término o frase que quieras en los distintos buscadores que se listan a continuación. Elabora un documento con los resultados de cada uno de los buscadores adjuntando una captura de pantalla con los 3 primeros resultados de cada uno de ellos. Para terminar, comenta cuál de ellos te ha gustado más en función de los resultados obtenidos y explica por qué.~~ -->
 
 !!! INFO "Buscadores"
     - Google
