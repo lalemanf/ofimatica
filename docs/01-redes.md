@@ -285,24 +285,24 @@ Algunos sistemas operativos (como Linux) tienen una herramienta integrada que pu
 
 ## 🧰 EJERCICIOS
 
-1.- Realiza una búsqueda por Internet de los diferentes tipos de red de ordenadores que existen y escribe en un documento las propiedades más significativas de cada una de ellas, incluyendo cuándo se creó y quién la creo. El documento debe recoger las siguientes redes:
+1.- ❎ Realiza una búsqueda por Internet de los diferentes tipos de red de ordenadores que existen y escribe en un documento las propiedades más significativas de cada una de ellas, incluyendo cuándo se creó y quién la creo. El documento debe recoger las siguientes redes:
     - LAN
     - MAN
     - PAN
     - VPN
     - WAN
 
-2.- Te han pedido que conectes 4 ordenadores entre sí, mediante cable, para poder intercambiar archivos y carpetas con el mismo sistema operativo. Ten en cuenta que ninguno de los 4 ordenadres _**DEBE SALIR A INTERNET**_. Elabora un documento PDF con un esquema que contenga todos los elementos necesarios (tanto físicos como protocolos) para realizar dicha tarea y una breve descripción de lo que tendrías que hacer a nivel infraestructural. Puedes utilizar canva para hacer el esquema. A este archivo PDF llámalo **Ejercicio-1-2.pdf** y envíalo.
+2.- ❎ Te han pedido que conectes 4 ordenadores entre sí, mediante cable, para poder intercambiar archivos y carpetas con el mismo sistema operativo. Ten en cuenta que ninguno de los 4 ordenadres _**DEBE SALIR A INTERNET**_. Elabora un documento PDF con un esquema que contenga todos los elementos necesarios (tanto físicos como protocolos) para realizar dicha tarea y una breve descripción de lo que tendrías que hacer a nivel infraestructural. Puedes utilizar canva para hacer el esquema. A este archivo PDF llámalo **Ejercicio-1-2.pdf** y envíalo.
 
-3.- Haz lo mismo que en el ejercicio anterior pero creando una red SIN CABLES, utilizando el protocolo WI-FI y esta vez _**SI QUE DEBEN PODER SALIR A INTERNET**_.
+3.- ❎ Haz lo mismo que en el ejercicio anterior pero creando una red SIN CABLES, utilizando el protocolo WI-FI y esta vez _**SI QUE DEBEN PODER SALIR A INTERNET**_.
 
-4.- Te has comprado un pendrive de 4GB de tamaño y una tasa de transferencia de 2Mb/s ¿Cuánto tiempo tardará el sistema en llenar el dispositivo? Calcula el tiempo en minutos y explica el proceso realizado.
+4.- ❎ Te has comprado un pendrive de 4GB de tamaño y una tasa de transferencia de 2Mb/s ¿Cuánto tiempo tardará el sistema en llenar el dispositivo? Calcula el tiempo en minutos y explica el proceso realizado.
 
-5.- Haz una búsqueda de Internet sobre el término o términos que quieras y compara los resultados en, al menos, 3 buscadores diferentes y explica las diferencias que encuentras; tanto en posición del mismo resultado (la misma web), descripción, título, interfraz gráfica y por último, la sensación que te da al buscar en dicho servidor. Añade cuál de todos ellos te gusta más y por qué.
+5.- ❎ Haz una búsqueda de Internet sobre el término o términos que quieras y compara los resultados en, al menos, 3 buscadores diferentes y explica las diferencias que encuentras; tanto en posición del mismo resultado (la misma web), descripción, título, interfraz gráfica y por último, la sensación que te da al buscar en dicho servidor. Añade cuál de todos ellos te gusta más y por qué.
 
-6.- Haz una búsqueda de al menos 10 **metabuscadores** de diferentes tipos (puedes repetir) que encuentres por Internet y comenta un poco su historia, cómo utilizarlo y a qué usuari@s va dirigido.
+~~6.- Haz una búsqueda de al menos 10 **metabuscadores** de diferentes tipos (puedes repetir) que encuentres por Internet y comenta un poco su historia, cómo utilizarlo y a qué usuari@s va dirigido.~~
 
-7.- Realiza un documento con información acerca de programas P2P (Peer To Peer) con al menos 8 de ellos que estén especializados en lo siguiente:
+7.- ❎ Realiza un documento con información acerca de programas P2P (Peer To Peer) con al menos 8 de ellos que estén especializados en lo siguiente:
 
     - Música
     - Películas
@@ -313,7 +313,7 @@ Algunos sistemas operativos (como Linux) tienen una herramienta integrada que pu
     Descripción del programa, lo que hace, quién lo creo y cuándo ¿se sigue utilizando?<br>
     Una foto de su logotipo
 
-8.- Realiza una búsqueda del término o frase que quieras en los distintos buscadores que se listan a continuación. Elabora un documento con los resultados de cada uno de los buscadores adjuntando una captura de pantalla con los 3 primeros resultados de cada uno de ellos. Para terminar, comenta cuál de ellos te ha gustado más en función de los resultados obtenidos y explica por qué.
+~~8.- Realiza una búsqueda del término o frase que quieras en los distintos buscadores que se listan a continuación. Elabora un documento con los resultados de cada uno de los buscadores adjuntando una captura de pantalla con los 3 primeros resultados de cada uno de ellos. Para terminar, comenta cuál de ellos te ha gustado más en función de los resultados obtenidos y explica por qué.~~
 
 !!! INFO "Buscadores"
     - Google
@@ -322,7 +322,7 @@ Algunos sistemas operativos (como Linux) tienen una herramienta integrada que pu
     - Ecosia
     - DuckDuckGo
 
-9.- Haz un trabajo en grupos de 2 personas relacionado con los metabuscadores que conteste a las siguientes preguntas.
+9.- ❎ Haz un trabajo en grupos de 2 personas relacionado con los metabuscadores que conteste a las siguientes preguntas.
 
 !!! DANGER "Metabuscadores"
     - ¿Qué es un Metabuscador? Historia ¿Cuál fue el primero?¿Existe aún?
@@ -332,7 +332,7 @@ Algunos sistemas operativos (como Linux) tienen una herramienta integrada que pu
     - ¿cuál es el mejor para billetes de avión?
     - ¿Google es un metabuscador? ¿tiene algún meta-buscador? Si es así, pon la url y di de qué se trata.
 
-10.- Crea una cuenta en [Canva](https://www.canva.com/es_es/){target="_blank"} y otra en [Notion](https://www.notion.so/es-es){target="_blank"}. Genera contenido en cada una de las plataformas y comparte los enlaces vía aules con lo que has creado.
+10.- ❎ Crea una cuenta en [Canva](https://www.canva.com/es_es/){target="_blank"} y otra en [Notion](https://www.notion.so/es-es){target="_blank"}. Genera contenido en cada una de las plataformas y comparte los enlaces vía aules con lo que has creado.
 
 11.- Crea un documento en blanco en el bloc de notas (o cualquier otro editor de archivos de texto plano) y guárdalo en el ordenador. Después, con la consola (o terminal) obtén el código Hash de dicho archivo. Seguidamente, pon tu nombre y apellidos dentro del archivo de texto _.txt_, guárdalo y obtén el nuevo código hash.
 
