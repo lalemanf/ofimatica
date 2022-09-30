@@ -315,12 +315,12 @@ Algunos sistemas operativos (como Linux) tienen una herramienta integrada que pu
 
 <!-- ~~8.- Realiza una búsqueda del término o frase que quieras en los distintos buscadores que se listan a continuación. Elabora un documento con los resultados de cada uno de los buscadores adjuntando una captura de pantalla con los 3 primeros resultados de cada uno de ellos. Para terminar, comenta cuál de ellos te ha gustado más en función de los resultados obtenidos y explica por qué.~~ -->
 
-!!! INFO "Buscadores"
+<!-- !!! INFO "Buscadores"
     - Google
     - Yahoo
     - Bing
     - Ecosia
-    - DuckDuckGo
+    - DuckDuckGo -->
 
 9.- ❎ Haz un trabajo en grupos de 2 personas relacionado con los metabuscadores que conteste a las siguientes preguntas.
 
