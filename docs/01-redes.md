@@ -282,6 +282,11 @@ Algunos sistemas operativos (como Linux) tienen una herramienta integrada que pu
 
 ## 📖 Documentación en Internet
 
+<figure markdown>
+  ![](media/01-documentacion.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
 A lo largo y ancho de Internet existen numerosas páginas web con toneladas de Teras de información sobre todo tipos de temas.
 
 Hemos visto un gran número de herramientas web que nos han facilitado la vida a la hora de hacer ciertas tareas como _Google Docs_, _Canva_, _Notion_, _Wikipedia_ y demás.
