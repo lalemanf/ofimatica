@@ -280,6 +280,64 @@ Estos códigos determinan la veracidad de los archivos que nos descargamos.
 Algunos sistemas operativos (como Linux) tienen una herramienta integrada que puede ejecutarse en la consola o terminal para comprobar este código **_Hash_**
 
 
+## 📖 Documentación en Internet
+
+A lo largo y ancho de Internet existen numerosas páginas web con toneladas de Teras de información sobre todo tipos de temas.
+
+Hemos visto un gran número de herramientas web que nos han facilitado la vida a la hora de hacer ciertas tareas como _Google Docs_, _Canva_, _Notion_, _Wikipedia_ y demás.
+
+Pero también existen páginas web que se dedican a recopilar información y documentación de todo tipo, como es el caso de _Wikipedia_.
+
+### [DMOZ](https://dmoz-odp.org/World/Espa%C3%B1ol/){target="_blank"}
+
+es la abreviatura de "Directory Mozilla" y solía ser uno de los directorios web más grandes. Su nombre oficial era "Open Directory Project", ODP.
+
+El objetivo original de los iniciadores era trazar un mapa de una gran parte de Internet a un directorio de direcciones web.
+
+Lo especial de DMOZ era que no tenía antecedentes comerciales y era mantenido por editores voluntarios.
+
+Durante mucho tiempo, Google utilizó la meta descripción que formaba parte de la descripción DMOZ de una página web para los snippets del SERP. El 17 de marzo de 2017, el proyecto DMOZ fue finalizado por su operador, AOL.
+
+### [Google Académico](https://scholar.google.es/){target="_blank"}
+
+Google Académico (en inglés, Google Scholar) es un motor de búsqueda de Google enfocado y especializado en la búsqueda de contenido y bibliografía científico-académica. El sitio indexa editoriales, bibliotecas, repositorios, bases de datos bibliográficas, entre otros; y entre sus resultados se pueden encontrar citas, enlaces a libros, artículos de revistas científicas, comunicaciones y congresos, informes científico-técnicos, tesis, tesinas y archivos depositados en repositorios.
+
+Fue lanzado al público en versión Beta el 19 de noviembre de 2005. El índice incluye todos aquellos documentos accesibles en la Web que cumplan con una serie de requisitos técnicos.3
+
+### [EUIPO](https://euipo.europa.eu/ohimportal/es/web/guest/home){target="_blank"}
+
+La Oficina de Propiedad Intelectual de la Unión Europea (o EUIPO por sus siglas en inglés, de European Union Intellectual Property Office) es la agencia de la Unión Europea (UE) encargada del registro de las marcas de la Unión Europea (anteriormente conocidas como “marca comunitaria”)​ y de los dibujos y modelos comunitarios. Hasta el 23 de marzo de 2016 se llamaba Oficina de Armonización del Mercado Interior (Marcas, Dibujos y Modelos) u OAMI.
+
+La marca comunitaria y el dibujo y modelo comunitario confiere a su titular un derecho unitario, con plena validez en todos los estados miembros de la Unión a través de un único procedimiento.
+
+Su sede se encuentra en la ciudad española de **Alicante**, y su presidente a partir de octubre de 2010, y durante un período de 5 años, fue Antonio Campinos. La EUIPO inició su actividad en el año 1994 con el nombre OAMI en español y en el 2016 empleaba en su sede de Alicante a más de 800 profesionales de distintas nacionalidades de la UE. La Oficina tiene cinco lenguas de trabajo —alemán, español, francés, inglés e italiano— y tramita solicitudes en 23 lenguas oficiales de la UE.
+
+### [Google Patentes](https://patents.google.com/){target="_blank"}
+
+Google Patents es un servicio de búsqueda de patentes y solicitudes de patente que ofrece el gigante tecnológico Google.
+
+Este servicio fue creado en el año 2006, y desde entonces ha acumulado más de 120 millones de patentes pertenecientes a 100 oficinas de patentes en todo el mundo.
+
+Gracias a este buscador se pueden encontrar patentes, solicitudes, referencias, reclamaciones, planos, gráficos, dibujos y todo tipo de documentos relacionados con una determinada patente.
+
+Google Patents no solo ofrece la posibilidad de consultar las patentes, sino que también permite descargarlas y guardarlas en el equipo.
+
+### [IMDb](https://www.imdb.com/){target="_blank"}
+
+Internet Movie DataBase, o IMDB según las siglas por las que es internacionalmente conocida, es la más importante base de datos de cine y televisión del mundo. Es una fuente de primer orden no solamente para estudiantes que necesiten fundamentar sus trabajos de historia del cine, por ejemplo, también lo es para investigadores del audiovisual o para profesionales de la producción o la distribución cinematográfica.
+
+
+### [deVuegoo](https://www.devuego.es/bd/){target="_blank"}
+
+DeVuego (de DeVelopment y videojuego) es un proyecto fundado en el año 2013 por Yova Turnes, inicialmente con la intención de crear una base de datos de todos aquellos videojuegos que hayan sido desarrollados en España, con especial énfasis en reconocer a todos los desarrolladores implicados en su creación.
+
+### [JustWatch](https://www.justwatch.com/){target="_blank"}
+
+En JustWatch puedes navegar fácilmente a través de tus películas o series favoritas para ver si están disponibles en cualquiera de tus proveedores favoritos.
+
+### [RAWG](https://rawg.io/){target="_blank"}
+
+La base de datos de videojuegos más grande de todo Internet hasta la fecha, con recomendaciones, tops por años, descripciones, videos, capturas y demás.
 
 
 
