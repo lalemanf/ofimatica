@@ -279,6 +279,14 @@ Estos códigos determinan la veracidad de los archivos que nos descargamos.
 
 Algunos sistemas operativos (como Linux) tienen una herramienta integrada que puede ejecutarse en la consola o terminal para comprobar este código **_Hash_**
 
+Para comprobar el **_hash_** de un archivo estando en Lliurex haremos lo siguiente:
+
+      - Abrimos una pantalla de consola a través del programa "Konsole"
+      - Vamos al escritorio metiendo el siguiente comando en la consola
+          cd Escriptori
+      - Ejecutamos el comando sha1sum seguido del nombre de archivo que queremos comprobar
+          sha1sum miArchivo.txt
+
 
 ## 📖 Documentación en Internet
 
