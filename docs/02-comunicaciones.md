@@ -45,7 +45,7 @@ Por motivos de seguridad, no todos los ordenadores que se contectan a la misma r
 
 Cuando envíamos un mensaje de manera externa, quiere decir que el destino de ese mensaje se encuentra fuera de nuestra red local o empresarial. Es decir, cuando envíamos un e-mail desde nuestra cuenta de **Gmail** a nuestro amigo Juan que tiene una cuenta de correo en **Yahoo**, estamos enviando un mensaje un servidor o una red diferente a la nuestra puesto Gmail y Yahoo son servidores diferentes que se conectan entre sí a través de Internet.
 
-#### 🖨️ Mensajes Internos y Externos entre dispositivos
+### 🖨️ Mensajes Internos y Externos entre dispositivos
 <figure markdown>
   ![](media/02-conexion.png){ width="200" }
   <figcaption></figcaption>
