@@ -164,6 +164,75 @@ Se pueden utilizar las mismas opciones de filtrado para buscar correos en esta c
 
 Una vez estén los correos en la papelera, si los eliminamos desde esta carpeta, los perderemos para siempre sin posibilidad de volver a recuperarlos.
 
+### 📬 Cliente de Correo
+<figure markdown>
+  ![](media/02-thunder.png){ width="300" }
+  <figcaption>Logo de Thunderbird</figcaption>
+</figure>
+
+Existen programas que se instalan en los ordenadores, e incluso en los teléfonos móviles, que sirven para gestion todas las cuentas de correo que tengamos, incluso si forman parte de servidores de correo diferentes (GMail, Outlook, Yahoo, Hotmail, Proton entre otras)
+
+A estos programas los llamamos **Clientes de correo**. Veamos una lista de los clientes de correo más utilizados a día de hoy:
+
+- [Mozilla ThunderBird](https://www.thunderbird.net/es-ES/){target="_blank"}
+- [PolyMail](https://polymail.io/){target="_blank"}
+- [MailBird](https://www.getmailbird.com/es/){target="_blank"}
+- [eMClient](https://www.emclient.com/){target="_blank"}
+- [VMWare Zimbra](https://www.zimbra.com/){target="_blank"}
+- [Inky](https://www.inky.com/){target="_blank"}
+- [Claws Mail](https://www.claws-mail.org/){target="_blank"}
+
+Todos estos programas tienen la funcionalidad de gestionar cuentas de correo a través de los propios servidores de correo (_mail servers_) incluso, algunos de ellos, sincronizan los contactos y el calendario para brindar un servicio aún más completo al usuario.
+
+En este curso vamos a estudiar en profundidad el cliente de correo llamado **ThunderBird** de la misma empresa que el navegador web (o cliente web) **Firefox**; la conocida empresa llamada **Mozilla**
+
+Obviamente vamos a necesitar una **cuenta de correo**, una **contraseña** para esa cuenta y un **servidor** que me permita utilizar un **cliente de correo externo** para poder conectarme de manera remota.
+
+### 📧 Servidor de correo Entrante
+<figure markdown>
+  ![](media/02-entrante.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+Como la propia palabra indica, es un servidor de correo que se encarga de almacenar todos los correos que se reciben (o entran) en una cuenta de correo electrónico.
+
+Este servidor, como todo en Internet, dispone de una IP o **nombre de dominio** donde realizaremos la petición para comprobar si existen mensajes nuevos en mi bandeja de entrada.
+
+Existen varios tipos de servidor de correo entrante
+
+#### 🍭 Servidor POP3
+
+También conocido como **P**rotocolo de **O**ficina **P**ostal (**P**ost **O**ffice **P**rotocol) es un conjunto de normas establecidas para consultar o mejor dicho, sincronizar el correo en dichos servidores remotos.
+
+Este protocolo **SÓLO** está preparado para **RECIBIR** correo y funciona de la siguiente manera:
+
+!!! INFO "Funcionamiento de un servidor POP3"
+    Se conecta, obtiene todos los mensajes, los almacena en la computadora del usuario como mensajes nuevos, los elimina del servidor y finalmente se desconecta
+
+Es un método antiguo para las exigencias de hoy en día por lo que podemos encontrar que, en la mayoría de los casos en los que utilicemos un servidor POP3, nuestras credenciales (usuario y contraseña) viajarán en texto plano sin cifrar.
+
+Por otra parte, el puerto por defecto para una conexión POP3 es el **número 110**
+
+!!! WARNING "Información adicional"
+    Todo lo relacionado con Internet o conexiones entre dispositivos está bajo el protocolo TCP/IP entre otros. Por norma general ya hemos visto que todas las direcciones de Internet funcionan con una IPv4 (incluso IPv6 pero no está generalizado todavía) pero, también nos conectamos a un puerto dentro de esa misma IP... ejemplo:
+
+    ➡️ si me conecto al servidor de correo de Gmail tendré que poner **mail.google.com** que a su vez es la IP **142.250.184.5** y para conectarme al servidor de correo deberé especificar el puerto, por tanto la conexión sería así **142.250.184.5:110**
+
+    🌐 en cambio, si quiero consultar el correo a través del cliente web (o página web de correo de Gmail) tendré que utilizar el puerto 80 ya que éste es el número por defecto de todas las páginas web que encontramos. Cuando ponemos en nuetro navegador **www.google.es** en realidad el navegador está omitiendo el **:80** ya que lo pone por defecto sin nosotros tener que decirle nada **mail.google.com:80**
+
+#### Servidor IMAP
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -180,15 +249,15 @@ Una vez estén los correos en la papelera, si los eliminamos desde esta carpeta,
 
 2.- ❎ En Windows 11 (y versiones anteriores) es posible enviar mensajes a través de la red. Investiga cómo utilizar el comando "msg" o "net send" en sistemas Windows anteriores.
 
-3.- ¿Es posible enviar mensajes a través de la red si estoy usando Linux? Investiga qué comando necesitas usar para enviar mensajes y haz un par de pruebas con los compañeros de clase. Adjunta capturas de pantalla de los mensajes que envíes; una captura tuya utilizando el comando en la consola y otra captura de tu compañero recibiendo dicho mensaje. Que tu compañero te envíe por OneDrive o correo electrónico dicha captura.
+3.- ❎ ¿Es posible enviar mensajes a través de la red si estoy usando Linux? Investiga qué comando necesitas usar para enviar mensajes y haz un par de pruebas con los compañeros de clase. Adjunta capturas de pantalla de los mensajes que envíes; una captura tuya utilizando el comando en la consola y otra captura de tu compañero recibiendo dicho mensaje. Que tu compañero te envíe por OneDrive o correo electrónico dicha captura.
 
-4.- Explica las diferencias entre una IP interna y una externa. Investiga en Internet sobre el tema para obtener más información PERO explícalo con tus palabras. Puedes añadir imágenes si lo ves oportuno ¿cómo hago (qué comando) para saber mi IP privada y mi IP pública?
+4.- ❎ Explica las diferencias entre una IP interna y una externa. Investiga en Internet sobre el tema para obtener más información PERO explícalo con tus palabras. Puedes añadir imágenes si lo ves oportuno ¿cómo hago (qué comando) para saber mi IP privada y mi IP pública?
 
 5.- Haz una lista de hasta 3 mensajes internos y otra de 3 mensajes externos con los pasos, dispositivos y ***software*** que necesitas para enviar mensajes de un dispositivo a otro.
 
 !!! WARNING "Ejemplo"
     - Interno ➡️ de PC a PC a través de la consola con el comando "msg" la IP (o nombre de red) del destino y el mensaje que quiero enviar
 
-6.- ¿Cómo es posible que el correo electrónico sea anterior a Internet? Investiga sobre el asunto y explica los primero usos de este tipo de mensajería.
+6.- ❎ ¿Cómo es posible que el correo electrónico sea anterior a Internet? Investiga sobre el asunto y explica los primero usos de este tipo de mensajería.
 
-7.- ¿Qué es el ***Phishing***? explica cómo los *hackers* utilizan esta técnica ¿lo harías? ¿crees que vale la pena hacerlo? reflexiona sobre los pros y contras de utilizar estra técnica para conseguir dinero rápido.
+7.- ❎ ¿Qué es el ***Phishing***? explica cómo los *hackers* utilizan esta técnica ¿lo harías? ¿crees que vale la pena hacerlo? reflexiona sobre los pros y contras de utilizar estra técnica para conseguir dinero rápido.
