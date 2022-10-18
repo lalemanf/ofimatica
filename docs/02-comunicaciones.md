@@ -220,9 +220,13 @@ Por otra parte, el puerto por defecto para una conexión POP3 es el **número 11
 
     🌐 en cambio, si quiero consultar el correo a través del cliente web (o página web de correo de Gmail) tendré que utilizar el puerto 80 ya que éste es el número por defecto de todas las páginas web que encontramos. Cuando ponemos en nuetro navegador **www.google.es** en realidad el navegador está omitiendo el **:80** ya que lo pone por defecto sin nosotros tener que decirle nada **mail.google.com:80**
 
-#### Servidor IMAP
+#### 📨 Servidor IMAP
+<figure markdown>
+  ![](media/02-imap.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
 
-
+Próximamente
 
 
 
@@ -261,3 +265,12 @@ Por otra parte, el puerto por defecto para una conexión POP3 es el **número 11
 6.- ❎ ¿Cómo es posible que el correo electrónico sea anterior a Internet? Investiga sobre el asunto y explica los primero usos de este tipo de mensajería.
 
 7.- ❎ ¿Qué es el ***Phishing***? explica cómo los *hackers* utilizan esta técnica ¿lo harías? ¿crees que vale la pena hacerlo? reflexiona sobre los pros y contras de utilizar estra técnica para conseguir dinero rápido.
+
+8.- ❎ Haz una investigación acerca de los diferentes clientes de correo electrónico de la lista que hemos visto, poniendo la siguiente información:
+
+    Logotipo
+    Nombre
+    Historia
+    Características
+    Planes de suscripción o licencia (gratuita o no)
+    Plataformas (Windows, Mac, Android, iOS)
