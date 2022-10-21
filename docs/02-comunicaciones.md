@@ -226,11 +226,57 @@ Por otra parte, el puerto por defecto para una conexión POP3 es el **número 11
   <figcaption></figcaption>
 </figure>
 
-Próximamente
+Protocolo de acceso a mensajes de Internet o lo que es lo mismo **I**nternet **M**essage **A**ccess **P**rotocol es un servidor de correo entrante más avanzado que POP.
+
+Con IMAP podemos leer los mensajes de correo que tengamos en la carpeta de entrada (Inbox) sin necesidad de descargarlos a nuestro ordenador o dispositivo.
+
+Además, podemos crear carpetas en el ordenador donde tengamos configurada la cuenta pero que dichas carpetas no aparezcan en el servidor y viceversa. No obstante, podemos crear carpetas y sincronizarlas para que estén en todos los dispositivos, incluido el servidor.
+
+Este nuevo protocolo fue creado por Mark Crispin en el año 1986 y actualmente van por la versión 4 ~ llamado IMAP4.
+
+Sus principales características son:
+
+=== "Conexión permanente"
+    Una conexión IMAP siempre es permanente mientras el cliente de correo esté ejecutándose, es decir, está siempre escuchando por nuevos mensajes o acciones del usuario sobre el buzon de correo
+
+=== "Conexión multiple"
+    Con este nuevo protocolo varios clientes de correo pueden acceder de manera simultánea al servidor y visualizar cambios de otros dispositivos casi en tiempo real
+
+=== "Estado del mensaje"
+    El hecho de que un correo esté leido o no leido se puede verificar de manera instantánea tanto en el cliente de correo como en el servidor. No como en el protocolo POP, donde el estado de cada mensaje sólo se queda guardado en el cliente que lo cambia independientemente de si en el servidor existe un estado diferente
+
+=== "Múltiples buzones"
+    Los clientes de IMAP4 pueden crear, renombrar y/o eliminar buzones (por lo general presentado como carpetas al usuario) en el servidor, y copiar mensajes entre buzones. El soporte para múltiples buzones también le permite a los servidores proporcionar acceso a carpetas públicas y compartidas
+
+=== "Búsqueda"
+    El filtrado de búsqueda siempre se ejecuta en el servidor para obtener un mejor resultado. Se lanza la búsqueda y es el servidor quien procesa dichos criterios y se encarga de devolver al cliente el resultado
 
 
+### 📮 Servidor de correo Saliente
+<figure markdown>
+  ![](media/02-saliente.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
 
+Del mismo modo que tenemos un servidor de corre entrante donde recibimos los correos que nos llegan, también disponemos de un servidor de correo saliente donde los mensajes que queramos enviar se conectan a este servidor para ser enviados a los destinatarios.
 
+El protocolo que controla este tipo de servidor es conocido como SMTP (**S**imple **M**ail **T**ransfer **P**rotocol) o lo que es lo mismo ***protocolo para transferencia simple de correo***.
+
+#### 🔌 Puertos SMTP
+<figure markdown>
+  ![](media/02-puertos.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+Como ya sabemos, Internet funciona con direcciones IP y con puertos para filtrar las conexiones en función de los servicios que se necesiten.
+
+En el protocolo SMTP se suelen utilizar los siguientes puertos:
+
+**Puerto 25**: puerto de Protocolo simple de transferencia de email<br>
+**Puerto 80**: puerto de Protocolo de transferencia de hipertexto<br>
+**Puerto 465**: puerto SMTP autenticado con SSL<br>
+**Puerto 587 y puerto 588**: puerto de envío de mensajes de email<br>
+**Puerto 2525**: el puerto alternativo
 
 
 
@@ -274,3 +320,7 @@ Próximamente
     Características
     Planes de suscripción o licencia (gratuita o no)
     Plataformas (Windows, Mac, Android, iOS)
+
+9.- Enumera y explica las diferencias entre los 2 protocolos de correo entrante IMAP4 y POP3
+
+10.- Enumera y explica cada uno de los puertos que se utilizan en las conexiones del servidor de correo saliente SMTP
