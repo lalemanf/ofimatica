@@ -321,6 +321,12 @@ En el protocolo SMTP se suelen utilizar los siguientes puertos:
     Planes de suscripción o licencia (gratuita o no)
     Plataformas (Windows, Mac, Android, iOS)
 
-9.- Enumera y explica las diferencias entre los 2 protocolos de correo entrante IMAP4 y POP3
+9.- ❎ Haz una lista con al menos 10 puertos de Internet más utilizados con su número de puerto y descripción de lo que hace. Por ejemplo
 
-10.- Enumera y explica cada uno de los puertos que se utilizan en las conexiones del servidor de correo saliente SMTP
+FTP [21]: El protocolo FTP, acrónimo de «File Transfer Protocol», es un protocolo de transferencia de archivos a través de la red entre sistemas conectados a través de conexiones TCP
+
+Además, di si existe algún cliente para ese protocolo, pon el logotipo del software, el nombre y el tipo de licencia (gratis o de pago y los distintos planes)
+
+10.- ❎ Enumera y explica las diferencias entre los 2 protocolos de correo entrante IMAP4 y POP3
+
+11.- Enumera y explica cada uno de los puertos que se utilizan en las conexiones del servidor de correo saliente SMTP
