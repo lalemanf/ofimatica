@@ -279,6 +279,139 @@ En el protocolo SMTP se suelen utilizar los siguientes puertos:
 **Puerto 2525**: el puerto alternativo
 
 
+## 👮‍♀️ Seguridad y Confidencialidad
+<figure markdown>
+  ![](media/02-seguridad.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+A la hora de enviar información por Internet, ya sea por e-mail o alguna app de mensajería (WhatsApp o Telegram), debemos tener en cuenta que la privacidad es un tema muy importante.
+
+### 🧮 Contactos
+
+Cuando queremos enviar un mensaje debemos saber la dirección de la persona que lo va a recibir. Muchas veces nos parecerá algo normal el hecho de que nuestra dirección de correo sea de libre acceso o pueda adquirirla cualquiera pero, en realidad es una información privada que no debe compartirse con todo el mundo.
+
+Existen empresas que se dedican a recopilar información personal por todo Internet para luego venderla a otras empresas que se dedican al marketing digital.
+
+**Un contacto** puede ser un correo electrónico, un nombre de usuario en una red social, un número de teléfono o una dirección postal.
+
+En una **ficha de contacto** podemos guardar la siguiente información:
+
+    - Nombre
+    - Apellidos
+    - e-mail
+    - Teléfono
+    - Dirección postal
+    - Fecha de nacimiento
+    - URL (sitio web, Linkedin u otra red social)
+
+Como ves, es mucha la información que podemos guardar de una misma persona e igual no tenemos el permiso de esa persona para almacenar toda esa información o igual no quiere que compartamos toda o parte su información con el resto del mundo.
+
+### 🧑‍⚖️ Ley de Protección de datos
+
+La ley de protección de datos (RGPD Reglamento General de Protección de Datos o LOPD Ley Orgánica de Protección de Datos de Carácter Personal) protege a todas las personas frente a un uso indebido de sus datos personales por parte de una empresa, ya sea por la venta de los mismos o por el uso en campañas de marketing.
+
+!!! DANGER "Cuidado"
+    No es ilegal que amigos, familiares o alguien que haya conseguido tu contacto te agreguen a un grupo de _Whatsapp_ o _Telegram_ sin tu consentimiento, ya que no existe una empresa o una campaña de marketing detrás de esta acción
+
+    [➡️ Caso real ⬅️](https://www.lavanguardia.com/tecnologia/aplicaciones/20211119/7870587/anadir-alguien-grupo-whatsapp-permiso-te-salir-caro-son-consecuencias-pmv.html#:~:text=La%20respuesta%20es%20no.,chat%20colectivo%20sin%20tu%20consentimiento.){target="_blank"}
+
+
+## 🖥️ Herramientas dentro de la mensajería
+
+<figure markdown>
+  ![](media/02-mensaje-envio.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+Dentro del mundo del correo electrónico tenemos muchas herramientas que nos facilitan la vida a la hora de gestionar toda la información; como es el caso de poder adjuntar archivos, calendario, lista de contactos y notas.
+
+
+### 📎 Adjuntar archivos
+
+Es una de las acciones más usadas a la hora de enviar un correo, el poder enviar archivos junto a un e-mail se hizo muy popular desde sus inicios.
+
+Antiguamente se podía enviar todo tipo de archivos adjuntos a un correo; documentos de texto, imágenes, videos, archivos ejecutables _.exe_ y demás. Pero los problemas con los virus fueron en aumento y los servidores empezar a capar ciertos archivos.
+
+Además, poco a poco fue evolucionando y cada vez hace falta más espacio en los servidores de correo debido a su alta demanda.
+
+Cuanto más espacio disponible, archivos de más tamaño puedes enviar hasta que llegaron las limitaciones de los archivos adjuntos.
+
+Dependiendo del servidor de correo que tengamos, existen ciertas limitaciones a la hora de enviar archivos:
+
+    - Tamaño máximo de archivo adjunto ~ 25 MB
+    - No es posible enviar archivos ejecutables (.exe, .bat y demás)
+    - Archivos comprimidos con archivos ejecutables dentro
+
+Para adjuntar archivos a un correo tan sólo tenemos que **pinchar en el icono del clip** 🖇️ y dependiendo del servidor de correo tendremos las siguientes opciones.
+
+<figure markdown>
+  ![](media/02-adjuntar.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+#### ⌨️ Desde el ordenador
+
+Al pinchar sobre esta opción se abrirá el navegador de archivos de nuestro sistema y podremos seleccionar los archivos que queramos adjuntar en el mensaje.
+
+En una primera instancia se podrán agregar todos los archivos que queramos, pero una vez los procese el servidor de correo podrá saltarnos un mensaje de error si hemos adjuntado un archivo no permitido.
+
+
+#### ☁️ Desde la nube
+
+Al pinchar sobre la opción de la nube (o one Drive en nuestro caso) nos aparecerá una ventana de navegación y veremos todos los archivos y carpetas que tenemos en la nube.
+
+Es una buena manera de adjuntar archivos grandes ya que aquí el tamaño es mucho mayor.
+
+!!! WARNING "A tener en cuenta"
+    La única diferencia importante es que cuando adjuntamos un archivo desde la nube, estamos enviando un acceso directo (o link) de descarga de dicho archivo, mientras que si lo adjuntamos directamente del ordenador, este archivo se almacenará en el servidor de correo.
+
+    ¿Qué pasa si borran el archivo que me han compartido desde la nube? ~ cuando vayas a leer el e-mail otra vez y el archivo ya no esté disponible en la nube, no podrás acceder a él.
+
+
+
+### 👥 Listado de Contactos
+
+<figure markdown>
+  ![](media/02-contactos.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+El listado de contactos es una herramienta imprescindible en todo servidor de correo electrónico. Gracias a ella podemos almacenar todos los contactos que nos interesen para poder enviar mensajes sin necesidad de ir con una libreta.
+
+Dentro de la aplicación del **Listado de contactos** podemos hacer las siguiente acciones.
+
+#### ➕ Agregar contacto
+
+<figure markdown>
+  ![](media/02-agregar-contacto.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+Al pinchar sobre la opción de agregar contacto podremos ver los diferentes campos a rellenar. Si pinchamos en **Agregar más** podremos agregar más campos a nuestro contacto, como el correo electrónico y demás información.
+
+#### ➖ Eliminar contacto
+
+Una vez tengamos contactos en nuestra lista, seremos capaces de eliminar contactos; podemos hacerlo de uno en uno o seleccionando varios a la vez.
+
+<figure markdown>
+  ![](media/02-eliminar-contacto.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+#### ✏️ Editar contacto
+
+Del mismo modo, en nuestra lista o en la misma vista del contacto podremos pinchar sobre la opción de editar para cambiar la información de nuestro contacto.
+
+
+### 📆 Calendario
+ Proximamente
+
+
+
+
+
+
 
 
 
@@ -330,3 +463,7 @@ Además, di si existe algún cliente para ese protocolo, pon el logotipo del sof
 10.- ❎ Enumera y explica las diferencias entre los 2 protocolos de correo entrante IMAP4 y POP3
 
 11.- Enumera y explica cada uno de los puertos que se utilizan en las conexiones del servidor de correo saliente SMTP
+
+12.- Investiga las limitaciones de archivos adjuntos en tu servidor de correo. ¿Cómo podría enviar por e-mail un archivo de 1GB de tamaño? encuentra hasta 5 proveedores de este tipo de servicio de almacenamiento y explica sus características
+
+13.- Añade a todos los compañeros de clase a tu lista de contactos. Una vez tengas hecho ésto, envía un e-mail a todos ellos con el siguiente mensaje "Hola! soy John Doe y esto es una prueba para el ejercicio 13" donde **John Doe** tienes que sustituirlo por tu nombre y apellidos. Haz una captura de pantalla del mensaje enviado que estará ubicado en la **bandeja de salida** y súbelo a Aules.

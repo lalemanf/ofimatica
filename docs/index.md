@@ -28,11 +28,9 @@ A continuación se enumeran los criterios de evaluación que van a ser expuestos
         - Búsqueda activa en redes informáticas
 
 
-
-
 !!! TLDR "Tema 2 ~ COMUNICACIONES INTERNAS Y EXTERNAS"
-    - Se han identificado los diferentes procedimientos de trasmisión y recepción de mensajes internos y externos
-    - Se ha utilizado el correo electrónico para enviar y recibir mensajes, tanto internos como externos
+    - ❎ Se han identificado los diferentes procedimientos de trasmisión y recepción de mensajes internos y externos
+    - ❎ Se ha utilizado el correo electrónico para enviar y recibir mensajes, tanto internos como externos
     - Se han anexado documentos, vínculos, entre otros en mensajes de correo electrónico
     - Se han empleado las utilidades del correo electrónico para clasificar contactos y listas de distribución de información entre otras
     - Se han aplicado criterios de prioridad, importancia y seguimiento entre otros en el envío de mensajes siguiendo las instrucciones recibidas
