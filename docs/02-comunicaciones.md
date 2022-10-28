@@ -462,8 +462,10 @@ Además, di si existe algún cliente para ese protocolo, pon el logotipo del sof
 
 10.- ❎ Enumera y explica las diferencias entre los 2 protocolos de correo entrante IMAP4 y POP3
 
-11.- Enumera y explica cada uno de los puertos que se utilizan en las conexiones del servidor de correo saliente SMTP
+11.- ❎ Enumera y explica cada uno de los puertos que se utilizan en las conexiones del servidor de correo saliente SMTP
 
-12.- Investiga las limitaciones de archivos adjuntos en tu servidor de correo. ¿Cómo podría enviar por e-mail un archivo de 1GB de tamaño? encuentra hasta 5 proveedores de este tipo de servicio de almacenamiento y explica sus características
+12.- ❎ Investiga las limitaciones de archivos adjuntos en tu servidor de correo. ¿Cómo podría enviar por e-mail un archivo de 1GB de tamaño? encuentra hasta 5 proveedores de este tipo de servicio de almacenamiento y explica sus características
 
 13.- Añade a todos los compañeros de clase a tu lista de contactos. Una vez tengas hecho ésto, envía un e-mail a todos ellos con el siguiente mensaje "Hola! soy John Doe y esto es una prueba para el ejercicio 13" donde **John Doe** tienes que sustituirlo por tu nombre y apellidos. Haz una captura de pantalla del mensaje enviado que estará ubicado en la **bandeja de salida** y súbelo a Aules.
+
+14.- ❎ Busca información sobre qué es la Lista Robinson y haz un documento contando por qué fue creada y para qué sirve.
