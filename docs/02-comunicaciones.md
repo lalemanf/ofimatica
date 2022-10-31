@@ -404,6 +404,145 @@ Una vez tengamos contactos en nuestra lista, seremos capaces de eliminar contact
 Del mismo modo, en nuestra lista o en la misma vista del contacto podremos pinchar sobre la opción de editar para cambiar la información de nuestro contacto.
 
 
+### 🖊️ La firma
+<figure markdown>
+  ![](media/02-firma-top.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+Normalmente, en los correo electrónicos vemos una firma o un saludo final donde la persona que envía el mensaje se despide cordialmente y pone su nombre.
+
+Con el paso de los años la firma de los correos ha ido evolucionando y cambiando de aspecto. Ahora podemos observar información relevante acerca del remitente (ya sea una empresa o una persona) junto con imágenes y texto formateado.
+
+La firma es algo que se repite siempre que se envía un correo por lo que, gracias a los **clientes de correo**, podemos automatizar este fragmento del mensaje para no tener que escribirlo cada vez que envíamos un mensaje.
+
+<figure markdown>
+  ![](media/02-firma-ej-1.png){ width="400" }
+  <figcaption>Ejemplo de firma</figcaption>
+</figure>
+
+Como vemos en el ejemplo de arriba, la firma está formateada y aparece los siguientes elementos
+
+#### 🤼 El saludo final
+
+Escrito como ***Kind Regards*** que en inglés significa "Saludos cordiales" es una manera de poner siempre el saludo en al parte final del mensaje sin tener que volver a escribir.
+
+Dependiendo de para quién vaya dirigido el mensaje escribiremos un saludo u otro
+
+=== "Cordial"
+    - Atentamente
+    - Cordialmente
+    - Respetuosamente
+    - Quedo al pendiente
+    - Quedo al pendiente de sus comentarios
+    - Un cordial saludo
+    - Excelente día
+    - Feliz inicio de semana
+    - Feliz fin de semana
+    - Que sea un gran día
+    - Estamos en contacto
+    - Gracias
+    - Muchas gracias
+    - Todo mi agradecimiento
+    - Muy agradecido (a)
+    - Gracias de antemano
+    - Gracias por todo
+    - Gracias por su consideración
+    - Gracias por su tiempo
+    - Gracias por su ayuda
+    - Con aprecio
+    - Con gratitud
+    - Espero su respuesta
+    - Espero noticias suyas
+
+=== "Casual"
+    - Deseándote lo mejor
+    - Hasta pronto
+    - Hasta luego
+    - Cuídate
+    - Afectuosamente
+    - Que tengas un excelente día
+    - Que disfrutes tu día
+    - Buena suerte
+    - Feliz [festividad, aniversario, cumpleaños, etc.]
+    - Que tengas un gran día
+    - Espero ayudarte
+    - Contento (a) / Feliz de saludarte
+    - Espero verte pronto
+    - Tu amigo (a)
+    - Te deseo lo mejor
+    - Un abrazo
+    - Disfruta tu **[día de la semana]**
+    - Un placer saber de ti
+
+#### 🐡 Logotipo o imagen de perfil
+<figure markdown>
+  ![](media/02-logotipo.png){ width="150" }
+  <figcaption></figcaption>
+</figure>
+
+En el caso de estar trabajando en una empresa, normalmente se pone el logotipo de la misma o, en caso de hacerlo más personal se puede sustituir por una foto de perfil de la persona que está enviando el mensaje.
+
+Es muy útil a la hora de recordar o visualizar un mensaje ya que los elementos gráficos entre tanto texto nos ayuda a organizar y procesar mejor la información.
+
+#### 📨 Remitente
+
+En el caso del ejemplo ***Robert Johnson / Cofundador AV Media*** donde ponemos nuestro nombre completo y lo que somos, independientemente de si estás trabajando en una empresa o eres estudiante.
+
+#### ℹ️ Información de contacto adicional
+
+Cuando envíamos un correo, nuestra dirección aparece como remitente del mensaje. En las firmas de correo se suele poner información adicional de contacto como es el caso del ejemplo.
+
+    - Teléfono
+    - El correo electrónico
+    - La URL de la empresa o personal
+    - Las redes sociales
+
+#### 📙 Creando la firma
+<figure markdown>
+  ![](media/02-webmail.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+La firma se puede crear a través del cliente de correo, ya sea web o un software que nos descarguemos como **Thunderbird**, **eMClient** entre otros.
+
+Para la creación de la firma vamos a utilzar el cliente web **Outlook** desde la web oficial de [Office](https://www.office.com){target="_blank"}
+
+<figure markdown>
+  ![](media/02-firma.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+    1. Pinchar sobre el icono de configuración y opciones ⚙️ situado en la parte superior derecha
+    2. En la barra de búsqueda escribir **firma** para filtrar las opciones
+    3. Pinchar en **Firma de correo electrónico**
+
+<figure markdown>
+  ![](media/02-firma-hecha.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+Una vez seguidos los pasos anteriores la página nos mostrará un cuadro de diálogo donde tendremos que rellenar los siguientes campos
+
+##### Editar nombre de firma
+    Nombre descriptivo de la firma en cuestión
+
+##### Area de texto enriquecido
+    Aquí editamos la firma entera, dándole el formato que queramos
+
+##### Seleccionar firmas predeterminadas
+    Este campo se habilitará una vez tengamos alguna firma ya creada
+
+!!! INFO
+    Una vez creada la o las firmas, podremos seleccionar una como predeterminada a la hora de escribir correos nuevos
+
+
+
+
+
+
+
+
 ### 📆 Calendario
  Proximamente
 
@@ -469,3 +608,17 @@ Además, di si existe algún cliente para ese protocolo, pon el logotipo del sof
 13.- Añade a todos los compañeros de clase a tu lista de contactos. Una vez tengas hecho ésto, envía un e-mail a todos ellos con el siguiente mensaje "Hola! soy John Doe y esto es una prueba para el ejercicio 13" donde **John Doe** tienes que sustituirlo por tu nombre y apellidos. Haz una captura de pantalla del mensaje enviado que estará ubicado en la **bandeja de salida** y súbelo a Aules.
 
 14.- ❎ Busca información sobre qué es la Lista Robinson y haz un documento contando por qué fue creada y para qué sirve.
+
+15.- Crea al menos 3 firmas de correo electrónico a través del cliente web **Outlook** que nos brinda [Office](https://www.office.com){target="_blank"} y haz una captura de pantalla de cada una de las firmas para **adjuntarlas en Aules**. Lleva cuidado con qué información pones en cada una de las firmas, ya sabes que dependiendo del destinatario debes colocar una info u otra. Las 3 firmas deben ser de diferente categoría:
+
+    - Cordial (para empresas)
+    - Informal (para amigos)
+    - Familiar (para la familia o amigos muy cercanos)
+
+!!! DANGER "Normas para crear las firmas"
+    - Guarda cada firma con el nombre de la categoría ➡️ Firma Cordial
+    - Deben contener una imagen tuya como perfil de la firma
+    - Debe tener tu nombre y apellidos, así como la información de contacto adicional
+    - Formatea el texto de tal manera que se diferencie el nombre como lo más importante
+
+16.- Haz lo mismo que en el ejercicio 15 pero esta vez que sea una firma de una imagen corporativa. Recuerda poner el logo de la empresa y la información que toque al respecto. Sube una captura de pantalla a Aules con el resultado. Guarda la firma con el nombre **Firma Corporativa**.
