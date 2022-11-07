@@ -544,21 +544,78 @@ Una vez seguidos los pasos anteriores la página nos mostrará un cuadro de diá
 
 
 ### 📆 Calendario
- Proximamente
+<figure markdown>
+  ![](media/02-calendario-icono.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
+
+El calendario es una herramienta muy útil para no olvidar las fechas importantes en nuestro día a día.
+
+Gracias a las herramientas que nos proporciona [Office](https://outlook.office.com/calendar/view/month){targer="_blank"} podemos gestionar el calendario a nuestro gusto con un sinfín de opciones.
+
+!!! INFO "Accediendo al calendario"
+    Para entrar en nuestro calendario debemos ir a [Office](https://outlook.office.com/calendar/view/month){targer="_blank"} o pinchando sobre el icono del calendario que está dentro del apartado **Outlook**
+
+Lo primero que veremos será la vista del calendario por meses y las opciones de las que disponemos.
+
+#### 🎟️ Eventos
+
+Los eventos son fechas señaladas donde nosotros podemos establecer un día y una hora para generar una alarma y que el sistema nos avise cuando llegue ese momento.
+
+Para configurar un nuevo evento **pincharemos sobre el día** que queramos y estableceremos los parámetros en función de nuestras necesidades. Imaginemos que el día 7 de noviembre tenemos el examen del Tema 2:
+
+<figure markdown>
+  ![](media/02-calendario.png){ width="600" }
+  <figcaption></figcaption>
+</figure>
+
+Al pinchar en el día dentro del calendario se abrirá una pantalla con las opciones disponibles. Podemos pinchar en la opción **Más opciones** para añadir más información al evento seleccionado.
+
+- **Agregar un título**: Título descriptivo del evento
+- **Invitar a asistentes**: En el caso de que queramos notificar a varias personas de dicho evento
+- **Rango de fecha**: La fecha del evento ➡️ puedes ser un día o un rango de fecha como una semana o varias
+- **Buscar una sala o ubicación**: Información acerca de dónde se celebrará dicho evento
+- **Recordatorio**: Cuándo recordarte esta fecha (mediante correo electrónico o notificación de la App)
+- **Agregar una descripción**: Detalles más en profundidad del evento en cuestión
+- **Clasificar**: Establecer un color de la categoría del evento o crear nuevas categorías
+- **Privado**: Los calendarios pueden ser privados (sólo los ves tú) o públicos
+
+
+#### 🪟 Vistas
+
+Al tener tanta información, Office nos brinda la posibilidad de intercambiar las vistas de cómo se muestran los eventos y calendarios en la pantalla
+
+Podemos mostrar la información de las siguientes maneras:
+
+- **Día**: Muestra todos los eventos de un mismo día
+- **Semana laboral**: Muestra todos los eventos de una semana, con su franja horaria
+- **Semana**: Lo mismo que *Semana Laboral* pero incluyendo el sábado y domingo
+- **Mes**: Muestra todos los eventos del mes de una manera resumida (sin franjas horarias)
+
+En el panel de la izquierda (*sidebar*) podemos filtrar los resultados de la vista en función de los calendarios que queramos ver
+
+<figure markdown>
+  ![](media/02-calendarios.png){ width="300" }
+  <figcaption>Filtrando resultados</figcaption>
+</figure>
+
+De esta manera, el sistema nos mostrará la información, con distintos colores, de los eventos de los eventos seleccionados a mano izquierda de la pantalla.
+
+
+#### 🛞 Configuración
+
+El calendario es completamente configurable a través del menú de configuración. Para acceder a dicho menú debemos pinchar sobre el icono del engranaje ⚙️ situado arriba a la derecha de la pantalla ↗️
+
+<figure markdown>
+  ![](media/02-calendario-config.png){ width="300" }
+  <figcaption></figcaption>
+</figure>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
+---
 
 ## 🧰 EJERCICIOS
 
@@ -622,3 +679,15 @@ Además, di si existe algún cliente para ese protocolo, pon el logotipo del sof
     - Formatea el texto de tal manera que se diferencie el nombre como lo más importante
 
 16.- Haz lo mismo que en el ejercicio 15 pero esta vez que sea una firma de una imagen corporativa. Recuerda poner el logo de la empresa y la información que toque al respecto. Sube una captura de pantalla a Aules con el resultado. Guarda la firma con el nombre **Firma Corporativa**.
+
+17.- Crea, dentro de tu Office, un calendario por cada una de las asginaturas que curses este año y estableces las fechas de los eventos que estén por llegar:
+
+    Exámenes
+    Trabajos
+    Libretas
+    Eventos (cumpleaños de los compañeros, por ejemplo)
+
+18.-  Crea un calendario que sea el calendario escolar del curso **1º FP Básica de Ofimática** con este mismo título y establece todos los días que sean festivos para el curso lectivo 2022-2023 así como los días de evaluación y diferentes eventos que puedan existir.
+
+19.- Crea un evento en el calendario general que sea el día de tu cumpleaños. Como invitados, mete a todos tus compañeros y al profesor para que les llegue la notificación. Con respecto a la franja horaria puedes establecer **todo el día**.
+
