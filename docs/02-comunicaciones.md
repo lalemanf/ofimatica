@@ -806,3 +806,5 @@ Una vez eliminados, importa los contactos de nuevo a tu libreta de direcciones d
     - lista-importada.jpg (captura de los contactos importados con el nuevo contacto agregado a mano)
 
 ---
+
+21.- Crea un archivo en Excel con los datos de los pokemon que hemos visto en los apuntes. Recuerda estilizar un poco la tabla con colores, alineado, bordes... a libre elección. Sube el archivo de excel a Aules.
