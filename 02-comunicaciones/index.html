@@ -313,6 +313,16 @@
   </a>
 </li>
 <li class="md-nav__item">
+<a class="md-nav__link" href="#exportar-contactos">
+    ⏫ Exportar contactos
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#importar-contactos">
+    ⤵️ Importar contactos
+  </a>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#editar-contacto">
     ✏️ Editar contacto
   </a>
@@ -645,7 +655,7 @@ Ejemplo de mensaje Externo ➡️ en una red VPN entre un PC y una cámara de vi
 </p>
 <figcaption></figcaption>
 </figure>
-<p>Del mismo modo que tenemos un servidor de corre entrante donde recibimos los correos que nos llegan, también disponemos de un servidor de correo saliente donde los mensajes que queramos enviar se conectan a este servidor para ser enviados a los destinatarios.</p>
+<p>Del mismo modo que tenemos un servidor de correo entrante donde recibimos los correos que nos llegan, también disponemos de un servidor de correo saliente donde los mensajes que queramos enviar se conectan a este servidor para ser enviados a los destinatarios.</p>
 <p>El protocolo que controla este tipo de servidor es conocido como SMTP (<strong>S</strong>imple <strong>M</strong>ail <strong>T</strong>ransfer <strong>P</strong>rotocol) o lo que es lo mismo <strong><em>protocolo para transferencia simple de correo</em></strong>.</p>
 <h4 id="puertos-smtp">🔌 Puertos SMTP</h4>
 <figure>
@@ -738,12 +748,64 @@ Ejemplo de mensaje Externo ➡️ en una red VPN entre un PC y una cámara de vi
 </figure>
 <p>Al pinchar sobre la opción de agregar contacto podremos ver los diferentes campos a rellenar. Si pinchamos en <strong>Agregar más</strong> podremos agregar más campos a nuestro contacto, como el correo electrónico y demás información.</p>
 <h4 id="eliminar-contacto">➖ Eliminar contacto</h4>
-<p>Una vez tengamos contactos en nuestra lista, seremos capaces de eliminar contactos; podemos hacerlo de uno en uno o seleccionando varios a la vez.</p>
 <figure>
 <p><a class="glightbox" href="../media/02-eliminar-contacto.png"><img alt="" src="../media/02-eliminar-contacto.png" width="300"/></a>
 </p>
 <figcaption></figcaption>
 </figure>
+<p>Una vez tengamos contactos en nuestra lista, seremos capaces de eliminar contactos; podemos hacerlo de uno en uno o seleccionando varios a la vez.</p>
+<h4 id="exportar-contactos">⏫ Exportar contactos</h4>
+<figure>
+<p><a class="glightbox" href="../media/02-csv.png"><img alt="" src="../media/02-csv.png" width="300"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Los contactos los hemos ido reuniendo a lo largo de los años y perder toda esa información puede ser un gran fastidio.</p>
+<p>La mayoría de clientes de correo o gestores de contactos, ofrece la opción de poder <strong>exportar los contactos</strong> a un archivo para luego <strong>importarlos</strong> en otro cliente o plataforma.</p>
+<p>Normalmente se exporta la información en un archivo de texto plano, con la información separada por comas (también llamado <strong>C</strong>omma <strong>S</strong>eparated <strong>V</strong>alues ➡️ CSV)</p>
+<div class="admonition info">
+<p class="admonition-title">Ejemplo de archivo CSV</p>
+<div class="highlight"><pre><span></span><code>John,Doe,120 jefferson st.,Riverside, NJ, 08075
+Jack,McGinnis,220 hobo Av.,Phila, PA,09119
+"John ""Da Man""",Repici,120 Jefferson St.,Riverside, NJ,08075
+Stephen,Tyler,"7452 Terrace ""At the Plaza"" road",SomeTown,SD, 91234
+,Blankman,,SomeTown, SD, 00298
+"Joan ""the bone"", Anne",Jet,"9th, at Terrace plc",Desert City,CO,00123
+</code></pre></div>
+</div>
+<p>La información del archivo <strong>CSV</strong> se codifica cada registro en una línea y la información de cada campo se encuentra separada por comas.</p>
+<p>👉 Ejemplo de todos los <a href="https://bit.ly/3Tozlvq" target="_blank">pokemon codificado en CSV</a> 👈</p>
+<div class="admonition tip">
+<p class="admonition-title">Ventajas del sistema CSV</p>
+<p>Una de las grandes ventajas es que es un formato de archivo estándar, lo que quiere decir que puedes importar los datos en muchos programas de gestión de datos como clientes de correo, Hojas de cálculo, editor de textos, bases de datos y más.</p>
+<p>Otra de las grandes ventajas que, al ser texto plano y tener una estructura muy sencilla, cualquiera puede abrir el archivo con un programa informático que maneje texto plano (como el Bloc de Notas) y editar la información sin necesidad de tener conocimientos de programación.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Recordatorio para archivos .csv</p>
+<p>Recuerda que el archivo que generes debe tener la extensión <strong>.csv</strong> para que funcione</p>
+</div>
+<h4 id="importar-contactos">⤵️ Importar contactos</h4>
+<figure>
+<p><a class="glightbox" href="../media/02-importar.png"><img alt="" src="../media/02-importar.png" width="300"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>La acción de importar contactos es el segundo paso; una vez que tenemos una copia de nuestros contactos podremos importar en otro sistema o libreta de direcciones.</p>
+<p>Para importar los contactos que previamente hemos exportado, debemos ir a la sección de <strong>contactos</strong> e importar el archivo <strong>.csv</strong> que hemos generado anteriormente.</p>
+<figure>
+<p><a class="glightbox" href="../media/02-importar-contactos-a.png"><img alt="" src="../media/02-importar-contactos-a.png" width="500"/></a>
+</p>
+<figcaption>Buscar la opción de importar</figcaption>
+</figure>
+<figure>
+<p><a class="glightbox" href="../media/02-importar-contactos-b.png"><img alt="" src="../media/02-importar-contactos-b.png" width="500"/></a>
+</p>
+<figcaption>Importar el archivo .csv</figcaption>
+</figure>
+<div class="admonition tip">
+<p class="admonition-title">Recordad</p>
+<p>No olvidéis que podemos importar nuestros datos en casi cualquier gestor de datos o contactos ¡¡ incluso en el Excel !!</p>
+</div>
 <h4 id="editar-contacto">✏️ Editar contacto</h4>
 <p>Del mismo modo, en nuestra lista o en la misma vista del contacto podremos pinchar sobre la opción de editar para cambiar la información de nuestro contacto.</p>
 <h3 id="la-firma">🖊️ La firma</h3>
@@ -934,9 +996,13 @@ Ejemplo de mensaje Externo ➡️ en una red VPN entre un PC y una cámara de vi
 - Añades imágenes de cómo es su interfaz
 - ¿Has utilizado alguna de estas herramientas? ¿qué es lo que más te gusto de ellas?
 </code></pre>
+<hr/>
 <p>2.- ❎ En Windows 11 (y versiones anteriores) es posible enviar mensajes a través de la red. Investiga cómo utilizar el comando "msg" o "net send" en sistemas Windows anteriores.</p>
+<hr/>
 <p>3.- ❎ ¿Es posible enviar mensajes a través de la red si estoy usando Linux? Investiga qué comando necesitas usar para enviar mensajes y haz un par de pruebas con los compañeros de clase. Adjunta capturas de pantalla de los mensajes que envíes; una captura tuya utilizando el comando en la consola y otra captura de tu compañero recibiendo dicho mensaje. Que tu compañero te envíe por OneDrive o correo electrónico dicha captura.</p>
+<hr/>
 <p>4.- ❎ Explica las diferencias entre una IP interna y una externa. Investiga en Internet sobre el tema para obtener más información PERO explícalo con tus palabras. Puedes añadir imágenes si lo ves oportuno ¿cómo hago (qué comando) para saber mi IP privada y mi IP pública?</p>
+<hr/>
 <p>5.- Haz una lista de hasta 3 mensajes internos y otra de 3 mensajes externos con los pasos, dispositivos y <strong><em>software</em></strong> que necesitas para enviar mensajes de un dispositivo a otro.</p>
 <div class="admonition warning">
 <p class="admonition-title">Ejemplo</p>
@@ -944,8 +1010,11 @@ Ejemplo de mensaje Externo ➡️ en una red VPN entre un PC y una cámara de vi
 <li>Interno ➡️ de PC a PC a través de la consola con el comando "msg" la IP (o nombre de red) del destino y el mensaje que quiero enviar</li>
 </ul>
 </div>
+<hr/>
 <p>6.- ❎ ¿Cómo es posible que el correo electrónico sea anterior a Internet? Investiga sobre el asunto y explica los primero usos de este tipo de mensajería.</p>
+<hr/>
 <p>7.- ❎ ¿Qué es el <strong><em>Phishing</em></strong>? explica cómo los <em>hackers</em> utilizan esta técnica ¿lo harías? ¿crees que vale la pena hacerlo? reflexiona sobre los pros y contras de utilizar estra técnica para conseguir dinero rápido.</p>
+<hr/>
 <p>8.- ❎ Haz una investigación acerca de los diferentes clientes de correo electrónico de la lista que hemos visto, poniendo la siguiente información:</p>
 <pre><code>Logotipo
 Nombre
@@ -954,14 +1023,21 @@ Características
 Planes de suscripción o licencia (gratuita o no)
 Plataformas (Windows, Mac, Android, iOS)
 </code></pre>
+<hr/>
 <p>9.- ❎ Haz una lista con al menos 10 puertos de Internet más utilizados con su número de puerto y descripción de lo que hace. Por ejemplo</p>
 <p>FTP [21]: El protocolo FTP, acrónimo de «File Transfer Protocol», es un protocolo de transferencia de archivos a través de la red entre sistemas conectados a través de conexiones TCP</p>
 <p>Además, di si existe algún cliente para ese protocolo, pon el logotipo del software, el nombre y el tipo de licencia (gratis o de pago y los distintos planes)</p>
+<hr/>
 <p>10.- ❎ Enumera y explica las diferencias entre los 2 protocolos de correo entrante IMAP4 y POP3</p>
+<hr/>
 <p>11.- ❎ Enumera y explica cada uno de los puertos que se utilizan en las conexiones del servidor de correo saliente SMTP</p>
+<hr/>
 <p>12.- ❎ Investiga las limitaciones de archivos adjuntos en tu servidor de correo. ¿Cómo podría enviar por e-mail un archivo de 1GB de tamaño? encuentra hasta 5 proveedores de este tipo de servicio de almacenamiento y explica sus características</p>
+<hr/>
 <p>13.- Añade a todos los compañeros de clase a tu lista de contactos. Una vez tengas hecho ésto, envía un e-mail a todos ellos con el siguiente mensaje "Hola! soy John Doe y esto es una prueba para el ejercicio 13" donde <strong>John Doe</strong> tienes que sustituirlo por tu nombre y apellidos. Haz una captura de pantalla del mensaje enviado que estará ubicado en la <strong>bandeja de salida</strong> y súbelo a Aules.</p>
+<hr/>
 <p>14.- ❎ Busca información sobre qué es la Lista Robinson y haz un documento contando por qué fue creada y para qué sirve.</p>
+<hr/>
 <p>15.- Crea al menos 3 firmas de correo electrónico a través del cliente web <strong>Outlook</strong> que nos brinda <a href="https://www.office.com" target="_blank">Office</a> y haz una captura de pantalla de cada una de las firmas para <strong>adjuntarlas en Aules</strong>. Lleva cuidado con qué información pones en cada una de las firmas, ya sabes que dependiendo del destinatario debes colocar una info u otra. Las 3 firmas deben ser de diferente categoría:</p>
 <pre><code>- Cordial (para empresas)
 - Informal (para amigos)
@@ -976,15 +1052,36 @@ Plataformas (Windows, Mac, Android, iOS)
 <li>Formatea el texto de tal manera que se diferencie el nombre como lo más importante</li>
 </ul>
 </div>
+<hr/>
 <p>16.- Haz lo mismo que en el ejercicio 15 pero esta vez que sea una firma de una imagen corporativa. Recuerda poner el logo de la empresa y la información que toque al respecto. Sube una captura de pantalla a Aules con el resultado. Guarda la firma con el nombre <strong>Firma Corporativa</strong>.</p>
+<hr/>
 <p>17.- Crea, dentro de tu Office, un calendario por cada una de las asginaturas que curses este año y estableces las fechas de los eventos que estén por llegar:</p>
 <pre><code>Exámenes
 Trabajos
 Libretas
 Eventos (cumpleaños de los compañeros, por ejemplo)
 </code></pre>
+<hr/>
 <p>18.-  Crea un calendario que sea el calendario escolar del curso <strong>1º FP Básica de Ofimática</strong> con este mismo título y establece todos los días que sean festivos para el curso lectivo 2022-2023 así como los días de evaluación y diferentes eventos que puedan existir.</p>
+<hr/>
 <p>19.- Crea un evento en el calendario general que sea el día de tu cumpleaños. Como invitados, mete a todos tus compañeros y al profesor para que les llegue la notificación. Con respecto a la franja horaria puedes establecer <strong>todo el día</strong>.</p>
+<hr/>
+<p>20.- Exporta todos los contactos que tengas en <strong>Outlook</strong> dentro de tu cuenta de Office, a un archivo <strong>.csv</strong>. Una vez que tengas los contactos a salvo, elimina todos los contactos desde la página de <strong>Outlook</strong>. Abre el archivo <strong>.csv</strong> y agrega el siguiente contacto:</p>
+<pre><code>- Nombre: Bruce
+- Apellidos: Lee
+- e-mail: brucelee@gmail.com
+</code></pre>
+<p>Una vez eliminados, importa los contactos de nuevo a tu libreta de direcciones desde el archivo <strong>.csv</strong> que has exportado. Haz capturas de cada proceso y sube todo a Aules:</p>
+<div class="admonition danger">
+<p class="admonition-title">Contenido del archivo .zip a subir</p>
+<ul>
+<li>lista-contactos.jpg (captura de tus contactos)</li>
+<li>contactos.csv (los contactos exportados ➕ contacto nuevo)</li>
+<li>lista-vacia.jpg (captura de los contactos vacíos)</li>
+<li>lista-importada.jpg (captura de los contactos importados con el nuevo contacto agregado a mano)</li>
+</ul>
+</div>
+<hr/>
 </article>
 </div>
 </div>
