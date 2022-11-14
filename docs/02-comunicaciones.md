@@ -747,7 +747,7 @@ Además, di si existe algún cliente para ese protocolo, pon el logotipo del sof
 
 ---
 
-13.- Añade a todos los compañeros de clase a tu lista de contactos. Una vez tengas hecho ésto, envía un e-mail a todos ellos con el siguiente mensaje "Hola! soy John Doe y esto es una prueba para el ejercicio 13" donde **John Doe** tienes que sustituirlo por tu nombre y apellidos. Haz una captura de pantalla del mensaje enviado que estará ubicado en la **bandeja de salida** y súbelo a Aules.
+13.- ❎ Añade a todos los compañeros de clase a tu lista de contactos. Una vez tengas hecho ésto, envía un e-mail a todos ellos con el siguiente mensaje "Hola! soy John Doe y esto es una prueba para el ejercicio 13" donde **John Doe** tienes que sustituirlo por tu nombre y apellidos. Haz una captura de pantalla del mensaje enviado que estará ubicado en la **bandeja de salida** y súbelo a Aules.
 
 ---
 
@@ -755,7 +755,7 @@ Además, di si existe algún cliente para ese protocolo, pon el logotipo del sof
 
 ---
 
-15.- Crea al menos 3 firmas de correo electrónico a través del cliente web **Outlook** que nos brinda [Office](https://www.office.com){target="_blank"} y haz una captura de pantalla de cada una de las firmas para **adjuntarlas en Aules**. Lleva cuidado con qué información pones en cada una de las firmas, ya sabes que dependiendo del destinatario debes colocar una info u otra. Las 3 firmas deben ser de diferente categoría:
+15.- ❎ Crea al menos 3 firmas de correo electrónico a través del cliente web **Outlook** que nos brinda [Office](https://www.office.com){target="_blank"} y haz una captura de pantalla de cada una de las firmas para **adjuntarlas en Aules**. Lleva cuidado con qué información pones en cada una de las firmas, ya sabes que dependiendo del destinatario debes colocar una info u otra. Las 3 firmas deben ser de diferente categoría:
 
     - Cordial (para empresas)
     - Informal (para amigos)
@@ -769,11 +769,11 @@ Además, di si existe algún cliente para ese protocolo, pon el logotipo del sof
 
 ---
 
-16.- Haz lo mismo que en el ejercicio 15 pero esta vez que sea una firma de una imagen corporativa. Recuerda poner el logo de la empresa y la información que toque al respecto. Sube una captura de pantalla a Aules con el resultado. Guarda la firma con el nombre **Firma Corporativa**.
+16.- ❎ Haz lo mismo que en el ejercicio 15 pero esta vez que sea una firma de una imagen corporativa. Recuerda poner el logo de la empresa y la información que toque al respecto. Sube una captura de pantalla a Aules con el resultado. Guarda la firma con el nombre **Firma Corporativa**.
 
 ---
 
-17.- Crea, dentro de tu Office, un calendario por cada una de las asginaturas que curses este año y estableces las fechas de los eventos que estén por llegar:
+17.- ❎ Crea, dentro de tu Office, un calendario por cada una de las asginaturas que curses este año y estableces las fechas de los eventos que estén por llegar:
 
     Exámenes
     Trabajos
@@ -786,11 +786,11 @@ Además, di si existe algún cliente para ese protocolo, pon el logotipo del sof
 
 ---
 
-19.- Crea un evento en el calendario general que sea el día de tu cumpleaños. Como invitados, mete a todos tus compañeros y al profesor para que les llegue la notificación. Con respecto a la franja horaria puedes establecer **todo el día**.
+19.- ❎ Crea un evento en el calendario general que sea el día de tu cumpleaños. Como invitados, mete a todos tus compañeros y al profesor para que les llegue la notificación. Con respecto a la franja horaria puedes establecer **todo el día**.
 
 ---
 
-20.- Exporta todos los contactos que tengas en **Outlook** dentro de tu cuenta de Office, a un archivo **.csv**. Una vez que tengas los contactos a salvo, elimina todos los contactos desde la página de **Outlook**. Abre el archivo **.csv** y agrega el siguiente contacto:
+20.- ❎ Exporta todos los contactos que tengas en **Outlook** dentro de tu cuenta de Office, a un archivo **.csv**. Una vez que tengas los contactos a salvo, elimina todos los contactos desde la página de **Outlook**. Abre el archivo **.csv** y agrega el siguiente contacto:
 
     - Nombre: Bruce
     - Apellidos: Lee
@@ -807,4 +807,4 @@ Una vez eliminados, importa los contactos de nuevo a tu libreta de direcciones d
 
 ---
 
-21.- Crea un archivo en Excel con los datos de los pokemon que hemos visto en los apuntes. Recuerda estilizar un poco la tabla con colores, alineado, bordes... a libre elección. Sube el archivo de excel a Aules.
+21.- ❎ Crea un archivo en Excel con los datos de los pokemon que hemos visto en los apuntes. Recuerda estilizar un poco la tabla con colores, alineado, bordes... a libre elección. Sube el archivo de excel a Aules.
