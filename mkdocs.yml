@@ -4,10 +4,10 @@ nav:
   - Inicio: index.md
   - Tema 1 - Información a través de la red: 01-redes.md
   - Tema 2 - Comunicaciones internas y externas: 02-comunicaciones.md
-  - Tema 3 - Reprografía: 03-procesadores.md
-  - Tema 4 - Procesadores de texto: 04-excel.md
-  - Tema 5 - Hojas de cálculo: 05-ppt.md
-  - Tema 6 - Presentaciones PPT: 06-reprografia.md
+  - Tema 3 - Procesadores de texto: 03-procesadores.md
+  - Tema 4 - Hojas de cálculo: 04-excel.md
+  - Tema 5 - Presentaciones PPT: 05-ppt.md
+  - Tema 6 - Reprografía: 06-reprografia.md
   # - Tema 7 - Encuadernación: 07-encuadernacion.md
 
 
