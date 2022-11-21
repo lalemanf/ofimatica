@@ -44,7 +44,7 @@ A continuación se enumeran los criterios de evaluación que van a ser expuestos
         - Organización de la agenda para incluir tareas, avisos y otras herramientas de planificación del trabajo
 
 
-!!! INFO "Tema 3 ~ REPROGRAFÍA"
+!!! INFO "Tema 3 ~ PROCESADORES DE TEXTO"
     - Se han identificado las funciones básicas, prestaciones y procedimientos simples de los procesadores de textos y autoedición
     - Se han identificado las funciones y utilidades que garanticen las normas de seguridad, integridad y confidencialidad de la información
     - Se ha localizado el documento, abierto y guardado posteriormente el documento en el formato y dirección facilitados, nombrándolos significativamente para su posterior acceso
@@ -66,7 +66,7 @@ A continuación se enumeran los criterios de evaluación que van a ser expuestos
         - Eliminación de residuos: Normativa aplicable
 
 
-!!! TIP "Tema 4 ~ PROCESADORES DE TEXTO"
+!!! TIP "Tema 4 ~ HOJAS DE CÁLCULO"
     - Se han utilizado los diversos tipos de datos y referencia para celdas, rangos, hojas y libros
     - Se han aplicado fórmulas y funciones básicas
     - Se han generado y modificado gráficos de diferentes tipos
@@ -82,7 +82,7 @@ A continuación se enumeran los criterios de evaluación que van a ser expuestos
         - Eliminación de residuos respetando la normativa
 
 
-!!! CHECK "Tema 5 ~ HOJAS DE CÁLCULO"
+!!! CHECK "Tema 5 ~ PRESENTACIONES PTT"
     - Se han identificado las opciones básicas de las aplicaciones de presentaciones
     - Se reconocen los distintos tipos de vista asociados a una presentación
     - Se han aplicado y reconocido las distintas tipografías y normas básicas de composición, diseño y utilización del color
@@ -100,7 +100,7 @@ A continuación se enumeran los criterios de evaluación que van a ser expuestos
         - Configuración e impresión de textos
 
 
-!!! DANGER "Tema 6 ~ PRESENTACIONES PTT"
+!!! DANGER "Tema 6 ~ REPROGRAFÍA"
     - Se han identificado los principales componentes y necesidades de mantenimiento, identificando las incidencias elementales, de acuerdo con los manuales de uso y sistemas de ayuda
     - Se ha descrito el funcionamiento de las fotocopiadoras, impresoras, escáneres, reproductoras, perforadoras, encuadernadoras u otros
     - Se han identificado las posibles incidencias básicas de equipos de reproducción e informáticos, describiendo posibles actuaciones
