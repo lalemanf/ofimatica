@@ -56,14 +56,14 @@ A continuación se enumeran los criterios de evaluación que van a ser expuestos
     - Se han utilizado las funciones y utilidades del procesador de textos que garanticen la seguridad, integridad y confidencialidad de la información de acuerdo con las indicaciones recibidas
 
     ??? QUESTION "Desglose"
-        - Equipos de reproducción: Tipos, componentes, características de los dispositivos
-        - Identificación de incidencias elementales en equipos de reprografía
-        - Funcionamiento de los equipos de reprografía —fotocopiadoras, impresoras, escáneres, reproductoras, perforadoras, encuadernadoras u otros—
-        - Software de digitalización de documentos
-        - Obtención de copias en formato documental y/o digital
-        - Observación de los procedimientos de calidad en la reproducción de documentos
-        - Procedimientos de seguridad en la utilización de equipos de reproducción
-        - Eliminación de residuos: Normativa aplicable
+        - Estructura y funciones de un procesador de texto
+        - Gestión de documentos en procesadores de textos
+        - Aplicación de formato a documentos
+        - Utilización de plantillas
+        - Edición de textos y tablas
+        - Inserción de objetos
+        - Configuración e impresión de textos
+        
 
 
 !!! TIP "Tema 4 ~ HOJAS DE CÁLCULO"
@@ -75,11 +75,11 @@ A continuación se enumeran los criterios de evaluación que van a ser expuestos
     - Se han aplicado las reglas de ergonomía y salud en el desarrollo de las actividades
 
     ??? QUESTION "Desglose"
-        - Equipos, útiles y herramientas de encuadernación funcional: Tipos, características, funcionamiento, detección de posibles incidencias
-        - Materiales de la encuadernación funcional: Tipos, características y su utilización
-        - Técnicas de encuadernación funcional: Corte, perforado y encuadernado funcional
-        - Equipos, útiles y herramientas de encuadernación funcional en condiciones de seguridad
-        - Eliminación de residuos respetando la normativa
+        - Tipos de datos Referencias a celdas Rangos Hojas Libros
+        - Utilización de fórmulas y funciones
+        - Creación y modificación de gráficos
+        - Reglas ergonómicas
+        - Elaboración de distintos tipos de documentos
 
 
 !!! CHECK "Tema 5 ~ PRESENTACIONES PTT"
@@ -91,13 +91,12 @@ A continuación se enumeran los criterios de evaluación que van a ser expuestos
     - Se han utilizado periféricos para ejecutar presentaciones asegurando el correcto funcionamiento
 
     ??? QUESTION "Desglose"
-        - Estructura y funciones de un procesador de texto
-        - Gestión de documentos en procesadores de textos
-        - Aplicación de formato a documentos
-        - Utilización de plantillas
-        - Edición de textos y tablas
-        - Inserción de objetos
-        - Configuración e impresión de textos
+        - Identificación de opciones básicas de las aplicaciones de presentaciones
+        - Diseño y edición de diapositivas Tipos de vistas
+        - Formateo de diapositivas, textos y objetos
+        - Utilización de plantillas y asistentes
+        - Presentación para el público: conexión a un proyector y configuración
+        
 
 
 !!! DANGER "Tema 6 ~ REPROGRAFÍA"
@@ -118,11 +117,14 @@ A continuación se enumeran los criterios de evaluación que van a ser expuestos
         - Utilizar los equipos de protección de acuerdo con los conectores y terminales implicados
 
     ??? QUESTION "Desglose"
-        - Tipos de datos Referencias a celdas Rangos Hojas Libros
-        - Utilización de fórmulas y funciones
-        - Creación y modificación de gráficos
-        - Reglas ergonómicas
-        - Elaboración de distintos tipos de documentos
+        - Equipos de reproducción: Tipos, componentes, características de los dispositivos
+        - Identificación de incidencias elementales en equipos de reprografía
+        - Funcionamiento de los equipos de reprografía —fotocopiadoras, impresoras, escáneres, reproductoras, perforadoras, encuadernadoras u otros—
+        - Software de digitalización de documentos
+        - Obtención de copias en formato documental y/o digital
+        - Observación de los procedimientos de calidad en la reproducción de documentos
+        - Procedimientos de seguridad en la utilización de equipos de reproducción
+        - Eliminación de residuos: Normativa aplicable
 
 <!-- 
 !!! WARNING "Tema 7 ~ ENCUADERNACIÓN"
@@ -141,9 +143,5 @@ A continuación se enumeran los criterios de evaluación que van a ser expuestos
     - Se ha comprobado que la encuadernación funcional realizada cumple con los criterios de calidad facilitados e inherentes al tipo de encuadernación
 
     ??? QUESTION "Desglose"
-        - Identificación de opciones básicas de las aplicaciones de presentaciones
-        - Diseño y edición de diapositivas Tipos de vistas
-        - Formateo de diapositivas, textos y objetos
-        - Utilización de plantillas y asistentes
-        - Presentación para el público: conexión a un proyector y configuración
+        
 -->
