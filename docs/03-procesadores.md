@@ -1,1 +1,1 @@
-# Reprografía
+# Procesadores de texto
