@@ -9,7 +9,7 @@
     - Un título 1 que describa el documento
     - Un párrafo resumen con al menos 200 palabras que describa lo que se está viendo
     - Una tabla,de al menos 4 columnas, con información detallada
-    - Una lista numerada con información extra del documento
+    - Una lista numerada, de al menos 5 elementos, con información extra del documento
     - Un último bloque con al menos una noticia de actualidad
 
 !!! WARNING "Temática"
@@ -20,3 +20,5 @@
     - **Pokémon**
     - **Anime** con info sobre actores y actrices de doblaje y sus personajes
     - Universo **Hollow Knight**
+
+Tienes un ejemplo en [este enlace](media/hk.pdf)
