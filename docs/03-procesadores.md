@@ -22,3 +22,10 @@
     - Universo **Hollow Knight**
 
 Tienes un ejemplo en [este enlace](media/hk.pdf)
+
+2.- ❎ En el ejercicio anterior, crea un archivo **.md** por cada uno de los elementos de la lista numerada, pero sólo de los 5 primeros. En cada uno de estos nuevos archivos debe aparecer la información correspondiente al nombre. Después, crea un menú a partir de una tabla con estos 5 elementos que contengan, cada uno, un enlace al correspondiente archivo **.html** que exportarás desde los nuevos **.md** que has creado.
+
+Por último, en cada uno de los nuevos **.md** creados (máximo 5) debes añadir un enlace para que vaya al inicio (el primer **.md** creado).
+
+!!! ERROR "Cuidado"
+    Nombra bien los archivos html que exportes y acuérdate ya que los necesitas para crear los enlaces. Por otro lado, **DEBES RECORDAR** exportar a **.html** el primer **.md** creado en el ejercicio 1 para que exista ese enlace.
