@@ -158,11 +158,74 @@ La única desventaja que tienen los documentos PDF es que no se pueden modificar
     Aunque Google Docs es un editor de textos online, si lo instalamos en nuestro dispositivo, podemos editar un documento sin necesidad de estar conectados a Intenet, marcando la opción Archvo -> Activar acceso sin conexión.
 
 
+### Manejando el texto
+
+Cuando creamos documento nuevo Google Docs, tendremos una página en blanco donde podremos escribir dentro de un recuadro que nos delimita los márgenes (Ya veremos cómo configurarlos).
+
+Una de las operaciones que más se realiza en un procesador de textos es la de seleccionar texto, para esto existen los siguientes métodos:
+
+Con el botón izquierdo del ratón presionado y arrastrándolo por el texto veremos como se marca el área que nosotros recorremos con azul, esto nos indica la zona del texto seleccionada. De esta manera podremos marcar fácilmente la porción de texto con la que deseamos trabajar.
+
+**Otras maneras de realizar esta tarea es la de hacer clic sobre el texto, lo cual hará lo siguiente:**
+
+- Con dos clics marcamos una palabra entera.
+
+- Con tres clics un párrafo entero.
+
+- Con la combinación de teclas Control + A seleccionamos todo el texto.
+
+
+**Para copiar texto podemos hacerlo de la siguiente forma:**
+
+- Eligiendo del menú la opción Editar -> Copiar.
+
+- Con la combinación de teclas Control + C.
+
+<figure markdown>
+  ![](media/03-gdocs-6.png){ width="500" }
+  <figcaption></figcaption>
+</figure>
 
 
 
+**Para cortar texto podemos hacerlo de la siguiente forma:**
+
+- Eligiendo del menú la opción Editar -> Cortar.
+
+- Con la combinación de teclas Control + X.
 
 
+
+**Para pegar texto copiado podemos hacerlo de la siguiente forma:**
+
+- Eligiendo del menú la opción Editar -> Pegar.
+
+- Con la combinación de teclas Control + V.
+
+!!! WARNING "Sabías qué..."
+    Se puede copiar texto de otro documento o de una página de Internet. Una opción muy interesante es Editar -> Copiar sin formato, muy útil cuando copiamos texto de páginas de Internet (Como Wikipedia), ya que nos elimina los hipervínculos, las negritas, inclinadas, etc.
+
+    A veces necesitamos escribir un carácter que no está en el teclado, entonces podemos insertarlo mediante la opción Insertar -> Caracteres especiales.
+
+
+**Si nos equivocamos y queremos deshacer los cambios hechos (por ejemplo si borramos texto), tenemos varias opciones:**
+
+- Con el icono Deshacer de la barra de herramientas. (<-)
+
+- Eligiendo del menú la opción Edición -> Deshacer.
+
+- Con la combinación de teclas Control + Z.
+
+**Se pueden deshacer tantos pasos comp querramos y si nos pasamos deshaciendo, existe la opción rehacer, con la que también tenemos varias opciones:**
+
+- Con el icono Rehacer de la barra de herramientas. (->)
+
+- Eligiendo del menú la opción Edición -> Rehacer.
+
+- Con la combinación de teclas Control + Y.
+
+
+### Formateando un documento
 
 
 
@@ -239,6 +302,10 @@ Por último, en cada uno de los nuevos **.md** creados (máximo 5) debes añadir
 ---
 
 8.- Abre Google Docs, crea un documento de texto nuevo y escribe una pequeña frase. Envía el archivo por correo electrónico a tu profesor en formato PDF, como asunto escribe "Ejercicio de Google Docs" y como mensaje escribe tu nombre, apellidos y clase.
+
+---
+
+9.- Elabora un documento en en Google Docs que recoja los atajos de teclado más importantes a la hora de editar o crear un documento de texto. Como mínimo tiene que haber 20 elementos diferentes y que sean los más importantes o más usados tales como seleccionar una palabra, una línea entera, poner negrita, cursiva o subrayado, seleccionar todo el texto del documento, crear un salto de página entre otros.
 
 ---
 

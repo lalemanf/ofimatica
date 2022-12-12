@@ -149,6 +149,49 @@
     </label>
 <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
 <li class="md-nav__item">
+<a class="md-nav__link" href="#typora">
+    Typora
+  </a>
+<nav aria-label="Typora" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sintaxis-de-markdown">
+    Sintaxis de Markdown
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#microsoft-office">
+    Microsoft Office
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#google-docs">
+    Google Docs
+  </a>
+<nav aria-label="Google Docs" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#creando-un-documento">
+    Creando un documento
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#abriendo-y-guardando-documentos">
+    Abriendo y guardando documentos
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exportando-un-documento">
+    Exportando un documento
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
 <a class="md-nav__link" href="#ejercicios">
     🧰 EJERCICIOS
   </a>
@@ -179,6 +222,219 @@
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
 <h1 id="procesadores-de-texto">Procesadores de texto</h1>
+<p>En este nuevo tema aprenderemos a manejar el procesador de textos. Seremos capaces de elaborar distintos documentos utilizando las herramientas que nos brindan los diferentes procesadores de textos más usados.</p>
+<p>Pero ¿qué es un procesador de textos?</p>
+<div class="admonition info">
+<p class="admonition-title">Definición</p>
+<p>Un procesador de textos es un software para ordenador que permite crear documentos con un aspecto profesional; suelen disponer de revisión ortográfica, inclusión de tablas, imágenes, gráficos y más herramientas para poder representar la información de una manera más gráfica y cómoda para la vista.</p>
+</div>
+<p>En este curso vamos a empezar utilizando un procesador de textos un poco más básico llamado <strong>Typora</strong> y después nos meteremos de lleno a utilizar la <em>suite Office 365</em> de Microsoft que nos proporciona la GVA a través de la identidad digital.</p>
+<h2 id="typora">Typora</h2>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-typora.gif"><img alt="" src="../media/03-typora.gif" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Typora es un editor de texto minimalista compatible con Windows, Mac y, por supuesto, Linux. Es completamente gratuito y tiene soporte para <em>Markdown</em>. <a href="https://typora.io/" target="_blank">Lo puedes descargar desde su página oficial</a></p>
+<div class="admonition warning">
+<p class="admonition-title">¿Qué es Markdown?</p>
+<p>Markdown es un lenguaje de marcado ligero creado por John Gruber y Aaron Swartz que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano... <a href="https://es.wikipedia.org/wiki/Markdown" target="_blank">Para más información</a></p>
+</div>
+<h3 id="sintaxis-de-markdown">Sintaxis de Markdown</h3>
+<p>Para poder utilizar <em>Markdown</em> dentro del procesador de textos <strong>Typora</strong> es necesario conocer la sintaxis especial de <em>Markdown</em>. La sintaxis se suele poner delante del texto (ya sea una palabra o un párrafo). Hay que tener mucho cuidado con los espacios en blanco entre los símbolos de la sintaxis y el texto original que se quiere mostrar</p>
+<p>Veamos más en detalle la sintaxis más utilizada:</p>
+<table>
+<thead>
+<tr>
+<th>Sintaxis</th>
+<th>Descripción</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>#</td>
+<td>Título 1</td>
+<td># Esto es un título 1 (el más grande)</td>
+</tr>
+<tr>
+<td>##</td>
+<td>Título 2</td>
+<td>## Esto es un título 2</td>
+</tr>
+<tr>
+<td>###</td>
+<td>Título 3</td>
+<td>### Esto es un título 3</td>
+</tr>
+<tr>
+<td>####</td>
+<td>Título 4</td>
+<td>#### Esto es un título 4</td>
+</tr>
+<tr>
+<td>#####</td>
+<td>Título 5</td>
+<td>##### Esto es un título 5</td>
+</tr>
+<tr>
+<td>######</td>
+<td>Título 6</td>
+<td>###### Esto es un título 6</td>
+</tr>
+<tr>
+<td>*</td>
+<td>Texto en cursiva</td>
+<td>*este texto está en cursvia*</td>
+</tr>
+<tr>
+<td>_</td>
+<td>Texto en cursiva</td>
+<td>_este texto está en cursvia_</td>
+</tr>
+<tr>
+<td>**</td>
+<td>Texto en cursiva</td>
+<td>**este texto está en negrita**</td>
+</tr>
+<tr>
+<td>[Texto del enlace](url)</td>
+<td>Enlaces a otras páginas</td>
+<td>[Enlace a Google](https://www.google.es)</td>
+</tr>
+<tr>
+<td>![Texto alternativo](url del archivo)</td>
+<td>poner imágenes</td>
+<td>![mi avatar](avatar.png)</td>
+</tr>
+</tbody>
+</table>
+<p>Para ver más sintaxis y poder crear más elementos con <em>Markdown</em>, como por ejemplo; tablas, listas ordenadas y desordenadas y combinar la sintaxis puedes <a href="https://markdown.es/multimarkdown/" target="_blank">visitar este enlace</a>.</p>
+<div class="admonition error">
+<p class="admonition-title">... y recuerda</p>
+<p>Esta página de apuntes está creada totalmente con <em>Markdown</em></p>
+</div>
+<h2 id="microsoft-office">Microsoft Office</h2>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-office.png"><img alt="" src="../media/03-office.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Las suites ofimáticas actuales suelen integrar al menos los siguientes programas:</p>
+<ul>
+<li>
+<p>Procesador de textos: Permite crear documentos con un aspecto profesional; suelen disponer de revisión ortográfica, inclusión de tablas, imágenes, etc.</p>
+</li>
+<li>
+<p>Hoja de cálculo: Sirve para organizar datos y números en tablas y operar con ellos, también disponen de creación de gráficos, inserción de imágenes, etc.</p>
+</li>
+<li>
+<p>Programa de presentaciones: Se utiliza para realizar un pase de diapositivas de imágenes y/o texto, con efectos de transición, música, etc.</p>
+</li>
+<li>
+<p>Base de datos: Permite organizar y consultar gran cantidad de datos (Nombres, direcciones, inventarios, etc).</p>
+</li>
+</ul>
+<p>Hoy en día, la suite ofimática más conocida es la de Microsoft Office, que engloba el procesador de textos Word, la hoja de cálculo Excel, el programa de presentaciones Powerpoint y la base de datos Access, además de otros programas para la gestión del correo electrónico, gestión de imágenes, etc.</p>
+<p>El siguiente <a href="https://www.office.com" target="_blank">enlace</a> te llevará a la página oficial de Microsoft Office.</p>
+<h2 id="google-docs">Google Docs</h2>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs.png"><img alt="" src="../media/03-gdocs.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>De la misma manera que Office, Google Docs tiene las mismas herramientas de ofimática para poder trabajar con todo tipo de documentos creados por odenador.</p>
+<p>Normalmente usaremos las aplicaciones de Google Docs a través del servicio totalmente gratuito en la nuve de Google. Las aplicaciones se pueden utilizar en el propio navegador.</p>
+<p>Se pueden crear y editar documentos compatibles con Office y viceversa; podemos abrir documentos creados desde Office, editarlos y volverlos a guardar en el mismo formato.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Para acceder a los <em>Suite</em> de Google Docs necesitaremos una cuenta de Google (o gmail) y accederemos a través del siguiente enlace <a href="https://drive.google.com" target="_blank">drive.google.com</a></p>
+</div>
+<h3 id="creando-un-documento">Creando un documento</h3>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-1.png"><img alt="" src="../media/03-gdocs-1.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Para crear un documentoNos aparecen los documentos que hemos editado ordenados por fecha de modificación. Podemos elegir cualquiera de ellos, buscarlo en la barra de búsqueda o crear uno nuevo pulsando el botón "+" de la esquina inferior derecha.</p>
+<p>Si creamos un nuevo documento, nos saldrá la siguiente pantalla que corresponde al procesador de textos. (También podemos llegar a esta pantalla desde nuestro Google Drive, Pulsando el botón "+" y eligiendo "Nuevo -&gt; Documentos de Google -&gt; Documento en blanco").</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-2.png"><img alt="" src="../media/03-gdocs-2.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<ol>
+<li>
+<p>El título del documento se puede modificar haciendo clic sobre él. También se puede destacar el documento y moverlo a una carpeta haciendo clic en el icono de carpeta. </p>
+</li>
+<li>
+<p>Los menús son similares a los de cualquier procesador de textos. </p>
+</li>
+<li>
+<p>La barra de herramientas es similar a la de cualquier procesador de textos y contiene las funciones más comunes, que también se encuentran en los menús. </p>
+</li>
+<li>
+<p>El espacio de edición del documento contiene una regla y el espacio donde se escribe, propiamente dicho. </p>
+</li>
+<li>
+<p>Los documentos en Google Drive se guardan automáticamente. </p>
+</li>
+<li>
+<p>Se pueden añadir comentarios a un documento. </p>
+</li>
+<li>
+<p>Los documentos se pueden compartir con otras personas haciendo clic en el botón "Compartir".</p>
+</li>
+</ol>
+<h3 id="abriendo-y-guardando-documentos">Abriendo y guardando documentos</h3>
+<p>Si queremos abrir un documento ya existente, dentro de Google Docs elegimos Archivo -&gt; Abrir, entonces se abrirá un cuadro de diálogo en el que tenemos varias opciones, como podemos ver en la siguiente captura de pantalla:</p>
+<table>
+<thead>
+<tr>
+<th>Documento desde la nube</th>
+<th>Subir un documento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-3.png"><img alt="" src="../media/03-gdocs-3.png"/></a></td>
+<td><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-4.png"><img alt="" src="../media/03-gdocs-4.png"/></a></td>
+</tr>
+</tbody>
+</table>
+<p>Las distintas opciones que tenemos en este cuadro de diálogo son:</p>
+<ul>
+<li>
+<p><strong>Mi unidad</strong>: Se abren los documentos que tenemos guardados en Google Drive.</p>
+</li>
+<li>
+<p><strong>Compartido conmigo</strong>: Se abren los documentos compartidos que están guardados en el Google Drive de los propietarios de dichos archivos. (Podemos hacer una copia y guardarla en nuestros dispositivos con la opción Archivo -&gt; Hacer copia).</p>
+</li>
+<li>
+<p><strong>Destacados</strong>: Se abren los documentos que hemos guardado como destacados con la estrella de cinco puntas.</p>
+</li>
+<li>
+<p><strong>Reciente</strong>: Se abren los últimos documentos en los que hemos estado trabajando.</p>
+</li>
+<li>
+<p><strong>Subir</strong>: Nos permite abrir un documento guardado en nuestro ordenador o dispositivo y modificarlo. (El archivo abierto se guarda en Google Drive, si queremos guardarlo en nuestro ordenador o dispositivo, elegiremos Archivo -&gt; Descargar).</p>
+</li>
+</ul>
+<h3 id="exportando-un-documento">Exportando un documento</h3>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-5.png"><img alt="" src="../media/03-gdocs-5.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Como vemos, la opción Archivo -&gt; Descargar nos permite guardar el documento en varios formatos, entre ellos, el formato de Microsoft Word (.docx) o el formato de LibreOffice (.odt) aunque el aspecto de nuestro documento puede sufrir modificaciones, si vamos a enviar el archivo (por ejemplo un trabajo a un profesor) es preferible descargarlo como Documento PDF (.pdf), que conserva la forma de nuestro trabajo siempre.</p>
+<p>La única desventaja que tienen los documentos PDF es que no se pueden modificar.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sabías qué...</p>
+<p>Una forma rápida de enviar un documento de Google Docs es mediante la opción Archivo -&gt; Enviar por correo electrónico adjunto, que nos permite enviar el documento actual mediante correo electrónico en un solo paso.</p>
+<p>Otra opción interesante es Archivo -&gt; Historial de versiones -&gt; Ver el historial de versiones, que nos permite ver y volver a cualquier momento en la edición del documento, una opción muy útil si hemos borrado algo por error durante la edición.</p>
+<p>Aunque Google Docs es un editor de textos online, si lo instalamos en nuestro dispositivo, podemos editar un documento sin necesidad de estar conectados a Intenet, marcando la opción Archvo -&gt; Activar acceso sin conexión.</p>
+</div>
+<hr/>
 <h2 id="ejercicios">🧰 EJERCICIOS</h2>
 <p>1.- ❎ Elige el editor de <strong>mark down</strong> que quieras (Visual Studio code o Typora) y maqueta el siguiente documento eligiendo la temática que prefieras, exporta el documento a <strong>PDF</strong> y súbelo a <strong>Aules</strong>:</p>
 <pre><code>- Una imagen de cabecera que ocupe todo el ancho de la página
@@ -200,12 +456,26 @@
 </ul>
 </div>
 <p>Tienes un ejemplo en <a href="../media/hk.pdf">este enlace</a></p>
+<hr/>
 <p>2.- ❎ En el ejercicio anterior, crea un archivo <strong>.md</strong> por cada uno de los elementos de la lista numerada, pero sólo de los 5 primeros. En cada uno de estos nuevos archivos debe aparecer la información correspondiente al nombre. Después, crea un menú a partir de una tabla con estos 5 elementos que contengan, cada uno, un enlace al correspondiente archivo <strong>.html</strong> que exportarás desde los nuevos <strong>.md</strong> que has creado.</p>
 <p>Por último, en cada uno de los nuevos <strong>.md</strong> creados (máximo 5) debes añadir un enlace para que vaya al inicio (el primer <strong>.md</strong> creado).</p>
 <div class="admonition error">
 <p class="admonition-title">Cuidado</p>
 <p>Nombra bien los archivos html que exportes y acuérdate ya que los necesitas para crear los enlaces. Por otro lado, <strong>DEBES RECORDAR</strong> exportar a <strong>.html</strong> el primer <strong>.md</strong> creado en el ejercicio 1 para que exista ese enlace.</p>
 </div>
+<hr/>
+<p>3.- ¿Qué es una suite ofimática y qué programas suele tener? Busca en Internet otras suites ofimáticas aparte de las vistas en el tema.</p>
+<hr/>
+<p>4.- ¿Qué se puede hacer con un procesador de texto moderno?.  Abre el procesador de textos Google Docs. Dibuja la ventana que aparece y señala sus partes principales.</p>
+<hr/>
+<p>5.- Escribe las opciones principales de la barra de herramienas de Google Docs.</p>
+<hr/>
+<p>6.- Explica qué es Google Drive, sus principales características y de qué manera se enlaza con la <em>suite de Google Docs</em></p>
+<hr/>
+<p>7.- Describe los tres métodos empleados para abrir un documento de Google Docs. ¿Qué opciones tenemos a la hora de abrir documentos en Google Docs? ¿En qué formatos de texto puede guardar los documentos Google Docs? ¿Por qué se utiliza tanto el formado de texto PDF en el tráfico de documentos por Internet?</p>
+<hr/>
+<p>8.- Abre Google Docs, crea un documento de texto nuevo y escribe una pequeña frase. Envía el archivo por correo electrónico a tu profesor en formato PDF, como asunto escribe "Ejercicio de Google Docs" y como mensaje escribe tu nombre, apellidos y clase.</p>
+<hr/>
 </article>
 </div>
 </div>
