@@ -37,7 +37,7 @@ Veamos más en detalle la sintaxis más utilizada:
 |######|Título 6| ###### Esto es un título 6 |
 | * | Texto en cursiva | \*este texto está en cursvia\* |
 | _ | Texto en cursiva | \_este texto está en cursvia\_ |
-| ** | Texto en cursiva | \*\*este texto está en negrita\*\* |
+| ** | Texto en negrita | \*\*este texto está en negrita\*\* |
 |\[Texto del enlace\]\(url\)|Enlaces a otras páginas | \[Enlace a Google\]\(https://www.google.es\)|
 |\!\[Texto alternativo\]\(url del archivo\)|poner imágenes | \!\[mi avatar\]\(avatar.png)|
 
