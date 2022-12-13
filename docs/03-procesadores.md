@@ -559,9 +559,29 @@ Por último tenemos la opción de insertar un cuadro de texto en el que podemos 
 
 ### Gráficos
 
+Una forma sencilla y visual de presentar la información en nuestros documentos es mediante gráficos. Los gráficos los estudiaremos con más profundidad en el Tema 4: La hoja de cálculo, ahora nos limitaremos a realizar un ejercicio paso a paso para comprobar lo fácil que resulta incluir un gráfico en un documento.
+
+Sigue los pasos en un documento de Google Docs en blanco:
+
+|Vamos a hacer un gráfico parecido a este|Elegimos Insertar -> Gráfico -> Circular|
+|-|-|
+|![](media/03-gdocs-32.png)|![](media/03-gdocs-33.png)|
+
+|Se crea un gráfico como este -> Abrimos el menú que hay arriba a la derecha del gráfico -> Elegimos Abrir origen | Se abre una hoja de cálculo con nuestro gráfico y la tabla de datos, que tendremos que cambiar con los datos correspondientes. (Hay que añadir una fila más) -> Si hacemos doble clic en el título Points scored lo podremos cambiar|
+|-|-|
+|![](media/03-gdocs-34.png)|![](media/03-gdocs-35.png)|
 
 
+|Volvemos a nuestro documento y pulsamos en el botón ACTUALIZAR|Ya tenemos el gráfico en nuestro documento con los datos correspondientes.|
+|-|-|
+|![](media/03-gdocs-36.png)|![](media/03-gdocs-37.png)|
 
+
+### Insertando fórmulas
+
+En ocasiones necesitamos escribir una fórmula o una expresión matemática y no suele quedar bien utilizando los caracteres normales. Google Docs dispone de un editor de fórmulas o ecuaciones ejecutando la opción Insertar -> Ecuación, nos aparece la barra de herramientas de ecuaciones que aunque parece simple, nos permite escribir cualquier tipo de expresión matemática.
+
+También podemos hacer visible la barra de herramientas de ecuaciones con la opción Ver -> Mostrar la barra de herramientas de ecuaciones del menú.
 
 
 
