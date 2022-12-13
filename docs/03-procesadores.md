@@ -1,3 +1,9 @@
+---
+hide:
+  - footer
+---
+
+
 # Procesadores de texto
 
 En este nuevo tema aprenderemos a manejar el procesador de textos. Seremos capaces de elaborar distintos documentos utilizando las herramientas que nos brindan los diferentes procesadores de textos más usados.
