@@ -15,7 +15,7 @@ Pero ¿qué es un procesador de textos?
 
 En este curso vamos a empezar utilizando un procesador de textos un poco más básico llamado **Typora** y después nos meteremos de lleno a utilizar la _suite Office 365_ de Microsoft que nos proporciona la GVA a través de la identidad digital.
 
-## Typora
+## ✒️ Typora
 
 <figure markdown>
   ![](media/03-typora.gif){ width="500" }
@@ -27,7 +27,7 @@ Typora es un editor de texto minimalista compatible con Windows, Mac y, por supu
 !!! WARNING "¿Qué es Markdown?"
     Markdown es un lenguaje de marcado ligero creado por John Gruber y Aaron Swartz que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano... [Para más información](https://es.wikipedia.org/wiki/Markdown){target="_blank"}
 
-### Sintaxis de Markdown
+### 👅 Sintaxis de Markdown
 
 Para poder utilizar _Markdown_ dentro del procesador de textos **Typora** es necesario conocer la sintaxis especial de _Markdown_. La sintaxis se suele poner delante del texto (ya sea una palabra o un párrafo). Hay que tener mucho cuidado con los espacios en blanco entre los símbolos de la sintaxis y el texto original que se quiere mostrar
 
@@ -53,7 +53,7 @@ Para ver más sintaxis y poder crear más elementos con _Markdown_, como por eje
     Esta página de apuntes está creada totalmente con _Markdown_
 
 
-## Microsoft Office
+## 🗄️ Microsoft Office
 
 <figure markdown>
   ![](media/03-office.png){ width="500" }
@@ -76,7 +76,7 @@ Hoy en día, la suite ofimática más conocida es la de Microsoft Office, que en
 El siguiente [enlace](https://www.office.com){target="_blank"} te llevará a la página oficial de Microsoft Office.
 
 
-## Google Docs
+## 📄 Google Docs
 
 <figure markdown>
   ![](media/03-gdocs.png){ width="500" }
@@ -92,7 +92,7 @@ Se pueden crear y editar documentos compatibles con Office y viceversa; podemos 
 !!! INFO
     Para acceder a los _Suite_ de Google Docs necesitaremos una cuenta de Google (o gmail) y accederemos a través del siguiente enlace [drive.google.com](https://drive.google.com){target="_blank"}
 
-### Creando un documento
+### 🚧 Creando un documento
 <figure markdown>
   ![](media/03-gdocs-1.png){ width="800" }
   <figcaption></figcaption>
@@ -123,7 +123,7 @@ Si creamos un nuevo documento, nos saldrá la siguiente pantalla que corresponde
 7. Los documentos se pueden compartir con otras personas haciendo clic en el botón "Compartir".
 
 
-### Abriendo y guardando documentos
+### 💾 Abriendo y guardando documentos
 
 Si queremos abrir un documento ya existente, dentro de Google Docs elegimos Archivo -> Abrir, entonces se abrirá un cuadro de diálogo en el que tenemos varias opciones, como podemos ver en la siguiente captura de pantalla:
 
@@ -145,7 +145,7 @@ Las distintas opciones que tenemos en este cuadro de diálogo son:
 - **Subir**: Nos permite abrir un documento guardado en nuestro ordenador o dispositivo y modificarlo. (El archivo abierto se guarda en Google Drive, si queremos guardarlo en nuestro ordenador o dispositivo, elegiremos Archivo -> Descargar).
 
 
-### Exportando un documento
+### ↗️ Exportando un documento
 
 <figure markdown>
   ![](media/03-gdocs-5.png){ width="800" }
@@ -164,7 +164,7 @@ La única desventaja que tienen los documentos PDF es que no se pueden modificar
     Aunque Google Docs es un editor de textos online, si lo instalamos en nuestro dispositivo, podemos editar un documento sin necesidad de estar conectados a Intenet, marcando la opción Archvo -> Activar acceso sin conexión.
 
 
-### Manejando el texto
+### 🖊️ Manejando el texto
 
 Cuando creamos documento nuevo Google Docs, tendremos una página en blanco donde podremos escribir dentro de un recuadro que nos delimita los márgenes (Ya veremos cómo configurarlos).
 
@@ -231,7 +231,7 @@ Con el botón izquierdo del ratón presionado y arrastrándolo por el texto vere
 - Con la combinación de teclas Control + Y.
 
 
-### Formateando un documento
+### 🌈 Formateando un documento
 
 Formatear un documento es darle la forma que queremos para hacerlo más atractivo, cambiando la forma de la página, el tipo, tamaño y color de la letra o la alineación de los párrafos.
 
@@ -243,7 +243,7 @@ En el menú Formato encontramos opciones para realizar estos cambios, aunque cad
   <figcaption></figcaption>
 </figure>
 
-#### Formato de página
+#### 📒 Formato de página
 
 También podemos dar formato al área de trabajo, cambiando el tamaño de la hoja, la orientación y la separación de los márgenes. Para ello, activaremos la siguiente ventana en Archivo -> Configuración de la página.
 
@@ -262,7 +262,7 @@ Nos aparece este cuadro de configuración, donde podemos cambiar la orientación
 |![](media/03-gdocs-9.png)|![](media/03-gdocs-10.png)|
 
 
-#### Formato de texto
+#### 📚 Formato de texto
 
 <figure markdown>
   ![](media/03-gdocs-11.png){ width="800" }
@@ -279,7 +279,7 @@ Se pueden acceder a más fuentes además de las predeterminadas desde el menú d
 También podemos acceder a varias de estas opciones desde la opción del menú Formato -> Texto y a algunas más como superíndice y subíndice. En este menú se muestran las combinaciones de teclas que nos permiten cambiar las opciones del texto.
 
 
-#### Formato de párrafo
+#### 💥 Formato de párrafo
 
 <figure markdown>
   ![](media/03-gdocs-12.png){ width="800" }
@@ -292,7 +292,7 @@ En los trabajos que se vayan a imprimir se suele utilizar la alineación justifi
 
 También podemos acceder a varias de estas opciones desde la opción del menú Formato -> Alinear y aplicar sangría y a algunas más como Opciones de sangría.
 
-##### La sangría
+##### 📏 La sangría
 
 <figure markdown>
   ![](media/03-gdocs-13.png){ width="500" }
@@ -308,7 +308,7 @@ Con la opción Formato -> Alinear y aplicar sangría -> Opciones de sangría, ll
 - **Sangría Francesa**: Se aplica a todo el párrafo excepto a la primera línea.
 
 
-#### Listas de texto
+#### 💼 Listas de texto
 
 En ocasiones necesitamos hacer una lista o enumeración de palabras o frases, para ello disponemos de numeración y viñetas:
 
@@ -316,7 +316,7 @@ En ocasiones necesitamos hacer una lista o enumeración de palabras o frases, pa
 - Eligiendo la opción **Formato -> Viñetas y numeración**
 
 
-### Insertando imágenes
+### 🎞️ Insertando imágenes
 
 Para enriquecer nuestros documentos podemos insertar imágenes en cualquier parte del mismo, para ello tenemos varias posibilidades:
 
@@ -343,7 +343,7 @@ En el caso de elegir **Insertar -> Imagen -> Buscar en la Web**, se nos abre una
 </figure>
 
 
-##### Propiedades de una imagen
+##### 🫙 Propiedades de una imagen
 
 Cuando pulsamos sobre una imagen insertada en el documento, la barra de herramientas cambia, y aparecen nuevos iconos para cambiar la imagen:
 
@@ -369,12 +369,12 @@ Cuando pulsamos sobre una imagen insertada en el documento, la barra de herramie
 - **Ajustes**: Nos permita modificar la transparencia, el brillo y el contraste de la imagen seleccionada.
 
 
-### Edición avanzada
+### ⏩ Edición avanzada
 
 Hasta ahora hemos visto cómo añadir y formatear texto y fotos a nuestros documentos, pero con los editores de textos modernos pueden conseguirse textos más profesionales, mediante la inclusión de encabezados y pie de página, numeración automática, tablas, gráficos, índices, etc. Veremos todo esto a continuación.
 
 
-#### Encabezados
+#### 🎓 Encabezados
 
 Los encabezados son palabras o frases que aparecen en todas las páginas del documento, se emplea mucho en los libros de literatura para poner el titulo del libro o del capítulo.
 
@@ -396,7 +396,7 @@ Nos aparecen varias opciones relacionadas con el encabezado:
 - **Quitar encabezado**: Deja el encabezado en blanco.
 
 
-#### Pie de página
+#### 👣 Pie de página
 
 Los pie de página son palabras o frases que aparecen en todas las páginas del documento, se emplea mucho para añadir el número de página.
 
@@ -410,7 +410,7 @@ Para activar el pie de página, hacemos doble clic en el margen inferior del doc
 El pie de página tiene exactamente las mismas opciones que el encabezado, por lo que no vamos a repetir su explicación. Para dejar de editar el pie de página o el encabezado, hay que hacer clic dentro del área de edición del documento.
 
 
-#### Columnas
+#### 🗼Columnas
 
 Google Docs permite escribir más de una columna por página, para ello hay que entrar en el menú Formato -> Columnas y elegimos la cantidad de columnas.
 
@@ -425,7 +425,7 @@ Si pulsamos en Más opciones; podremos ajustar la distancia entre columnas y pod
 A veces es útil insertar una línea horizontal en un documento para separar secciones, para hacerlo, hay que elegir la opción **Insertar -> Línea horizontal.**
 
 
-### Tablas
+### 💹 Tablas
 
 A veces, en un texto, hay que recoger datos que pueden organizarse y presentarse en forma de tablas. Google Docs permite insertar tablas de cualquier número de celdas (Cada uno de los cuadros de la tabla ) y modificarlas libremente. Hay en el menú una opción llamada Tabla, donde se recogen todas las operaciones que podemos realizar relacionadas con las tablas.
 
@@ -457,7 +457,7 @@ Además podemos acceder a las Propiedades de tabla, con las que podremos configu
   <figcaption></figcaption>
 </figure>
 
-#### Índices
+#### 🪧 Índices
 
 En todos los documentos largos es conveniente incluir un índice que nos indique la página donde se encuentra cada título y subtítulo.
 
@@ -482,7 +482,7 @@ A los títulos de segundo nivel (Los que tienen dos números), los marcaremos co
 !!! INFO "Muy importante"
 	Cada vez que añadimos títulos a nuestro documento, hay que pulsar el botón de la izquierda en forma de flecha circular, para que se actualice el indice.
 
-### WordArt
+### ® WordArt
 
 Con WordArt podemos hacer títulos vistosos, con letras grandes de colores, para insertar un título con WordArt hay que abrir el editor de dibujo (que ya veremos en la próxima clase), para ello hay que elegir la opción **Insertar -> Dibujo -> + Nuevo**, con lo que accedemos al editor de dibujo.
 
@@ -504,7 +504,7 @@ Una vez terminado nuestro WordArt, pulsamos el botón Guardar y cerrar para inse
 
 
 
-### Dibujos
+### 😊 Dibujos
 
 Ya vimos en la clase anterior cómo acceder al editor de dibujos, para ello hay que elegir la opción **Insertar -> Dibujo -> + Nuevo**, con lo que accedemos al editor de dibujo.
 
@@ -557,7 +557,7 @@ Por último tenemos la opción de insertar un cuadro de texto en el que podemos 
 	Si pulsamos con el botón derecho sobre el fondo, podemos cambiar el color del fondo, pudiendo añadir colores degradados. La alineación del dibujo dentro del documento se realiza igual que las imágenes insertadas.
 
 
-### Gráficos
+### 📊 Gráficos
 
 Una forma sencilla y visual de presentar la información en nuestros documentos es mediante gráficos. Los gráficos los estudiaremos con más profundidad en el Tema 4: La hoja de cálculo, ahora nos limitaremos a realizar un ejercicio paso a paso para comprobar lo fácil que resulta incluir un gráfico en un documento.
 
@@ -577,7 +577,7 @@ Sigue los pasos en un documento de Google Docs en blanco:
 |![](media/03-gdocs-36.png)|![](media/03-gdocs-37.png)|
 
 
-### Insertando fórmulas
+### 📈 Insertando fórmulas
 
 En ocasiones necesitamos escribir una fórmula o una expresión matemática y no suele quedar bien utilizando los caracteres normales. Google Docs dispone de un editor de fórmulas o ecuaciones ejecutando la opción Insertar -> Ecuación, nos aparece la barra de herramientas de ecuaciones que aunque parece simple, nos permite escribir cualquier tipo de expresión matemática.
 
@@ -588,7 +588,65 @@ También podemos hacer visible la barra de herramientas de ecuaciones con la opc
 |-|-|
 |![](media/03-gdocs-formulas.png)|![](media/03-gdocs-formulas-b.png)|
 
+La barra de herramientas de ecuaciones dispone de 5 opciones desplegables:
 
+    - Letras griegas
+    - Operaciones varias
+    - Relaciones
+    - Operaciones matemáticas
+    - Flechas
+
+Para escribir una ecuación pulsamos en **Nueva ecuación** y en la ventana que nos sale vamos construyendo la ecuación introduciendo caracteres del teclado y caracteres matemáticos de la **barra de herramientas de ecuaciones**.
+
+!!! WARNING "Información útil"
+    Para las operaciones matemáticas, primero se introduce la operación y luego los número o variables.
+    Para moverse por la ecuación, hay que utilizar la tecla flecha derecha ➡️
+
+### 🛠️ Herramientas
+
+*Google Docs* dispone de una serie de herramientas que nos pueden ayudar a redactar nuestros documentos, se encuentran en la opción Herramientas del menú y son las siguientes:
+
+  🔠 Ortografía y gramática: Nos revisa la ortografía y la gramática de nuestro documento, señalando los errores y ofreciendo alternativas de corrección.
+
+  🔢 Contar palabras: Muestra el número de palabras de nuestro documento, es útil cuando tenemos que escribir una redacción con un número mínimo de palabras.
+
+  📖 Diccionario: Google Docs dispone de un diccionario integrado que ofrece la definición de cualquier palabra que indiquemos. Resulta útil para buscar sinónimos.
+
+  🈵 Traducir documento: Traduce el texto escrito o pegado desde Internet a cualquier idioma. Se crea un nuevo documento con el texto traducido.
+
+  🎙️ Dictado por voz: Escribe el texto que le dictemos con nuestra voz. Es necesario disponer de un micrófono.
+
+<figure markdown>
+  ![](media/03-herramientas.png){ width="700" }
+  <figcaption></figcaption>
+</figure>
+
+
+### 👑 Complementos
+
+Durante todo el tema hemos visto la gran cantidad de posibilidades que tiene Google Docs para editar documentos de texto. También, hemos visto varias herramientas que nos pueden ayudar a redactar nuestros textos. Además de todo esto, Google Docs permite que podamos descargar e instalar complementos para el mismo que aumentan sus posibilidades.
+
+Para acceder a los complementos instalados o instalar otros nuevos tenemos que ir a la opción Complementos -> Descarga de complementos.
+
+<figure markdown>
+  ![](media/03-complementos.png){ width="700" }
+  <figcaption></figcaption>
+</figure>
+
+Existen multitud de complementos para Google Docs y se van creando nuevos, entre ellos encontramos:
+
+    - Editores de títulos mejores que WordArt
+    - Editores avanzados de ecuaciones
+    - Gestores de biografías
+    - Editores de diagramas
+    - Resaltadores de texto
+    - Impresión de etiquetas
+
+!!! INFO
+
+    Mediante el botón Compartir de arriba a la derecha, podemos dar permiso a cualquier persona para que pueda ver y/o editar nuestro documento (Incluso al mismo tiempo).
+
+    Se pueden hacer comentarios al texto escrito por otra persona, que puede ver cuando edita el documento.
 
 
 
@@ -762,5 +820,36 @@ Influyeron, además, en la sensibilidad del poeta en formación Lope de Vega, Ju
 		- Un cartel para vender tu móvil usado.
 		- Un cartel para el día de los enamorados.
 		- Utiliza el formato de página apaisado y procura que sean atractivos y elaborados.
+
+---
+
+17.- Abre un nuevo documento de Google Docs, inserta un gráfico de columnas y modifícalo con los datos de la siguiente tabla para que sea como el gráfico siguiente:
+
+|Resultado|Datos|
+|-|-|
+|![](media/03-ej-17-a.png)|![](media/03-ej-17-b.png)|
+
+---
+
+18.- Abre un nuevo documento de Google Docs, inserta una tabla de 3 columnas y 4 filas, combina las celdas para obtener una tabla como la siguiente e inserta la ecuación que aparece en cada celda.
+
+<figure markdown>
+  ![](media/03-ej-18.png){ width="500" }
+  <figcaption></figcaption>
+</figure>
+
+---
+
+19.- Realiza un trabajo con Google Docs sobre algún tema de tu interés, según las siguientes indicaciones:
+
+- La primera página será la portada, que incluirá un título con WordArt, una foto alusiva al tema y los nombres del autor.
+
+- En la segunda página se incluirá el índice automático del trabajo.
+
+- En la tercera y sucesivas páginas se incluirá un texto copiado de Internet con varios títulos y subtítulos numerados (Al menos 6 páginas).
+
+- El documento incluirá un encabezado en el título del trabajo y un pie de página con el número de página centrado (Excepto en la portada).
+
+- Entre el texto se incluirán fotos alusivas al tema, alguna tabla y algún gráfico o ecuación editados en Google Docs (No vale imagen de los mismos).
 
 ---
