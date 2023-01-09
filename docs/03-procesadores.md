@@ -687,11 +687,11 @@ Por último, en cada uno de los nuevos **.md** creados (máximo 5) debes añadir
 
 ---
 
-3.- ¿Qué es una suite ofimática y qué programas suele tener? Busca en Internet otras suites ofimáticas aparte de las vistas en el tema.
+3.- ❎ ¿Qué es una suite ofimática y qué programas suele tener? Busca en Internet otras suites ofimáticas aparte de las vistas en el tema.
 
 ---
 
-4.- ¿Qué se puede hacer con un procesador de texto moderno?.  Abre el procesador de textos Google Docs. Dibuja la ventana que aparece y señala sus partes principales.
+4.- ❎ ¿Qué se puede hacer con un procesador de texto moderno?.  Abre el procesador de textos Google Docs. Dibuja la ventana que aparece y señala sus partes principales.
 
 ---
 
