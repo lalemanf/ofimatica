@@ -6,22 +6,33 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
 <link href="../assets/images/favicon.png" rel="icon"/>
-<meta content="mkdocs-1.3.1, mkdocs-material-8.5.0" name="generator"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-8.5.10" name="generator"/>
 <title>Tema 3 - Procesadores de texto - Ofimática y archivo de documentos</title>
-<link href="../assets/stylesheets/main.2e8b5541.min.css" rel="stylesheet"/>
-<link href="../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/main.472b142f.min.css" rel="stylesheet"/>
+<link href="../assets/stylesheets/palette.08040f6c.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Inter";--md-code-font:"Roboto Mono"}</style>
 <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>html.glightbox-open { overflow: initial; height: 100%; }</style><script src="../assets/javascripts/glightbox.min.js"></script></head>
+<link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            
+                .gscrollbar-fixer { padding-right: 15px; }
+                .gdesc-inner { font-size: 0.75rem; }
+                body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+                body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+                body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+                </style><script src="../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="deep-orange" data-md-color-primary="teal" data-md-color-scheme="default" dir="ltr">
 <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#reprografia">
+<a class="md-skip" href="#procesadores-de-texto">
           Saltar a contenido
         </a>
 </div>
@@ -124,9 +135,179 @@
 </li>
 <li class="md-nav__item md-nav__item--active">
 <input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Tema 3 - Procesadores de texto
+          <span class="md-nav__icon md-icon"></span>
+</label>
 <a class="md-nav__link md-nav__link--active" href="./">
         Tema 3 - Procesadores de texto
       </a>
+<nav aria-label="Tabla de contenidos" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#typora">
+    Typora
+  </a>
+<nav aria-label="Typora" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#sintaxis-de-markdown">
+    Sintaxis de Markdown
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#microsoft-office">
+    Microsoft Office
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#google-docs">
+    Google Docs
+  </a>
+<nav aria-label="Google Docs" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#creando-un-documento">
+    Creando un documento
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#abriendo-y-guardando-documentos">
+    Abriendo y guardando documentos
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#exportando-un-documento">
+    Exportando un documento
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#manejando-el-texto">
+    Manejando el texto
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#formateando-un-documento">
+    Formateando un documento
+  </a>
+<nav aria-label="Formateando un documento" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#formato-de-pagina">
+    Formato de página
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#formato-de-texto">
+    Formato de texto
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#formato-de-parrafo">
+    Formato de párrafo
+  </a>
+<nav aria-label="Formato de párrafo" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#la-sangria">
+    La sangría
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#listas-de-texto">
+    Listas de texto
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#insertando-imagenes">
+    Insertando imágenes
+  </a>
+<nav aria-label="Insertando imágenes" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#propiedades-de-una-imagen">
+    Propiedades de una imagen
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#edicion-avanzada">
+    Edición avanzada
+  </a>
+<nav aria-label="Edición avanzada" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#encabezados">
+    Encabezados
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#pie-de-pagina">
+    Pie de página
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#columnas">
+    Columnas
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#tablas">
+    Tablas
+  </a>
+<nav aria-label="Tablas" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#indices">
+    Índices
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#wordart">
+    WordArt
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dibujos">
+    Dibujos
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#graficos">
+    Gráficos
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#ejercicios">
+    🧰 EJERCICIOS
+  </a>
+</li>
+</ul>
+</nav>
 </li>
 <li class="md-nav__item">
 <a class="md-nav__link" href="../04-excel/">
@@ -150,7 +331,708 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="reprografia">Reprografía</h1>
+<h1 id="procesadores-de-texto">Procesadores de texto</h1>
+<p>En este nuevo tema aprenderemos a manejar el procesador de textos. Seremos capaces de elaborar distintos documentos utilizando las herramientas que nos brindan los diferentes procesadores de textos más usados.</p>
+<p>Pero ¿qué es un procesador de textos?</p>
+<div class="admonition info">
+<p class="admonition-title">Definición</p>
+<p>Un procesador de textos es un software para ordenador que permite crear documentos con un aspecto profesional; suelen disponer de revisión ortográfica, inclusión de tablas, imágenes, gráficos y más herramientas para poder representar la información de una manera más gráfica y cómoda para la vista.</p>
+</div>
+<p>En este curso vamos a empezar utilizando un procesador de textos un poco más básico llamado <strong>Typora</strong> y después nos meteremos de lleno a utilizar la <em>suite Office 365</em> de Microsoft que nos proporciona la GVA a través de la identidad digital.</p>
+<h2 id="typora">Typora</h2>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-typora.gif"><img alt="" src="../media/03-typora.gif" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Typora es un editor de texto minimalista compatible con Windows, Mac y, por supuesto, Linux. Es completamente gratuito y tiene soporte para <em>Markdown</em>. <a href="https://typora.io/" target="_blank">Lo puedes descargar desde su página oficial</a></p>
+<div class="admonition warning">
+<p class="admonition-title">¿Qué es Markdown?</p>
+<p>Markdown es un lenguaje de marcado ligero creado por John Gruber y Aaron Swartz que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano... <a href="https://es.wikipedia.org/wiki/Markdown" target="_blank">Para más información</a></p>
+</div>
+<h3 id="sintaxis-de-markdown">Sintaxis de Markdown</h3>
+<p>Para poder utilizar <em>Markdown</em> dentro del procesador de textos <strong>Typora</strong> es necesario conocer la sintaxis especial de <em>Markdown</em>. La sintaxis se suele poner delante del texto (ya sea una palabra o un párrafo). Hay que tener mucho cuidado con los espacios en blanco entre los símbolos de la sintaxis y el texto original que se quiere mostrar</p>
+<p>Veamos más en detalle la sintaxis más utilizada:</p>
+<table>
+<thead>
+<tr>
+<th>Sintaxis</th>
+<th>Descripción</th>
+<th>Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>#</td>
+<td>Título 1</td>
+<td># Esto es un título 1 (el más grande)</td>
+</tr>
+<tr>
+<td>##</td>
+<td>Título 2</td>
+<td>## Esto es un título 2</td>
+</tr>
+<tr>
+<td>###</td>
+<td>Título 3</td>
+<td>### Esto es un título 3</td>
+</tr>
+<tr>
+<td>####</td>
+<td>Título 4</td>
+<td>#### Esto es un título 4</td>
+</tr>
+<tr>
+<td>#####</td>
+<td>Título 5</td>
+<td>##### Esto es un título 5</td>
+</tr>
+<tr>
+<td>######</td>
+<td>Título 6</td>
+<td>###### Esto es un título 6</td>
+</tr>
+<tr>
+<td>*</td>
+<td>Texto en cursiva</td>
+<td>*este texto está en cursvia*</td>
+</tr>
+<tr>
+<td>_</td>
+<td>Texto en cursiva</td>
+<td>_este texto está en cursvia_</td>
+</tr>
+<tr>
+<td>**</td>
+<td>Texto en negrita</td>
+<td>**este texto está en negrita**</td>
+</tr>
+<tr>
+<td>[Texto del enlace](url)</td>
+<td>Enlaces a otras páginas</td>
+<td>[Enlace a Google](https://www.google.es)</td>
+</tr>
+<tr>
+<td>![Texto alternativo](url del archivo)</td>
+<td>poner imágenes</td>
+<td>![mi avatar](avatar.png)</td>
+</tr>
+</tbody>
+</table>
+<p>Para ver más sintaxis y poder crear más elementos con <em>Markdown</em>, como por ejemplo; tablas, listas ordenadas y desordenadas y combinar la sintaxis puedes <a href="https://markdown.es/multimarkdown/" target="_blank">visitar este enlace</a>.</p>
+<div class="admonition error">
+<p class="admonition-title">... y recuerda</p>
+<p>Esta página de apuntes está creada totalmente con <em>Markdown</em></p>
+</div>
+<h2 id="microsoft-office">Microsoft Office</h2>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-office.png"><img alt="" src="../media/03-office.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Las suites ofimáticas actuales suelen integrar al menos los siguientes programas:</p>
+<ul>
+<li>
+<p>Procesador de textos: Permite crear documentos con un aspecto profesional; suelen disponer de revisión ortográfica, inclusión de tablas, imágenes, etc.</p>
+</li>
+<li>
+<p>Hoja de cálculo: Sirve para organizar datos y números en tablas y operar con ellos, también disponen de creación de gráficos, inserción de imágenes, etc.</p>
+</li>
+<li>
+<p>Programa de presentaciones: Se utiliza para realizar un pase de diapositivas de imágenes y/o texto, con efectos de transición, música, etc.</p>
+</li>
+<li>
+<p>Base de datos: Permite organizar y consultar gran cantidad de datos (Nombres, direcciones, inventarios, etc).</p>
+</li>
+</ul>
+<p>Hoy en día, la suite ofimática más conocida es la de Microsoft Office, que engloba el procesador de textos Word, la hoja de cálculo Excel, el programa de presentaciones Powerpoint y la base de datos Access, además de otros programas para la gestión del correo electrónico, gestión de imágenes, etc.</p>
+<p>El siguiente <a href="https://www.office.com" target="_blank">enlace</a> te llevará a la página oficial de Microsoft Office.</p>
+<h2 id="google-docs">Google Docs</h2>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs.png"><img alt="" src="../media/03-gdocs.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>De la misma manera que Office, Google Docs tiene las mismas herramientas de ofimática para poder trabajar con todo tipo de documentos creados por odenador.</p>
+<p>Normalmente usaremos las aplicaciones de Google Docs a través del servicio totalmente gratuito en la nuve de Google. Las aplicaciones se pueden utilizar en el propio navegador.</p>
+<p>Se pueden crear y editar documentos compatibles con Office y viceversa; podemos abrir documentos creados desde Office, editarlos y volverlos a guardar en el mismo formato.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Para acceder a los <em>Suite</em> de Google Docs necesitaremos una cuenta de Google (o gmail) y accederemos a través del siguiente enlace <a href="https://drive.google.com" target="_blank">drive.google.com</a></p>
+</div>
+<h3 id="creando-un-documento">Creando un documento</h3>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-1.png"><img alt="" src="../media/03-gdocs-1.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Para crear un documentoNos aparecen los documentos que hemos editado ordenados por fecha de modificación. Podemos elegir cualquiera de ellos, buscarlo en la barra de búsqueda o crear uno nuevo pulsando el botón "+" de la esquina inferior derecha.</p>
+<p>Si creamos un nuevo documento, nos saldrá la siguiente pantalla que corresponde al procesador de textos. (También podemos llegar a esta pantalla desde nuestro Google Drive, Pulsando el botón "+" y eligiendo "Nuevo -&gt; Documentos de Google -&gt; Documento en blanco").</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-2.png"><img alt="" src="../media/03-gdocs-2.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<ol>
+<li>
+<p>El título del documento se puede modificar haciendo clic sobre él. También se puede destacar el documento y moverlo a una carpeta haciendo clic en el icono de carpeta. </p>
+</li>
+<li>
+<p>Los menús son similares a los de cualquier procesador de textos. </p>
+</li>
+<li>
+<p>La barra de herramientas es similar a la de cualquier procesador de textos y contiene las funciones más comunes, que también se encuentran en los menús. </p>
+</li>
+<li>
+<p>El espacio de edición del documento contiene una regla y el espacio donde se escribe, propiamente dicho. </p>
+</li>
+<li>
+<p>Los documentos en Google Drive se guardan automáticamente. </p>
+</li>
+<li>
+<p>Se pueden añadir comentarios a un documento. </p>
+</li>
+<li>
+<p>Los documentos se pueden compartir con otras personas haciendo clic en el botón "Compartir".</p>
+</li>
+</ol>
+<h3 id="abriendo-y-guardando-documentos">Abriendo y guardando documentos</h3>
+<p>Si queremos abrir un documento ya existente, dentro de Google Docs elegimos Archivo -&gt; Abrir, entonces se abrirá un cuadro de diálogo en el que tenemos varias opciones, como podemos ver en la siguiente captura de pantalla:</p>
+<table>
+<thead>
+<tr>
+<th>Documento desde la nube</th>
+<th>Subir un documento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-3.png"><img alt="" src="../media/03-gdocs-3.png"/></a></td>
+<td><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-4.png"><img alt="" src="../media/03-gdocs-4.png"/></a></td>
+</tr>
+</tbody>
+</table>
+<p>Las distintas opciones que tenemos en este cuadro de diálogo son:</p>
+<ul>
+<li>
+<p><strong>Mi unidad</strong>: Se abren los documentos que tenemos guardados en Google Drive.</p>
+</li>
+<li>
+<p><strong>Compartido conmigo</strong>: Se abren los documentos compartidos que están guardados en el Google Drive de los propietarios de dichos archivos. (Podemos hacer una copia y guardarla en nuestros dispositivos con la opción Archivo -&gt; Hacer copia).</p>
+</li>
+<li>
+<p><strong>Destacados</strong>: Se abren los documentos que hemos guardado como destacados con la estrella de cinco puntas.</p>
+</li>
+<li>
+<p><strong>Reciente</strong>: Se abren los últimos documentos en los que hemos estado trabajando.</p>
+</li>
+<li>
+<p><strong>Subir</strong>: Nos permite abrir un documento guardado en nuestro ordenador o dispositivo y modificarlo. (El archivo abierto se guarda en Google Drive, si queremos guardarlo en nuestro ordenador o dispositivo, elegiremos Archivo -&gt; Descargar).</p>
+</li>
+</ul>
+<h3 id="exportando-un-documento">Exportando un documento</h3>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-5.png"><img alt="" src="../media/03-gdocs-5.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Como vemos, la opción Archivo -&gt; Descargar nos permite guardar el documento en varios formatos, entre ellos, el formato de Microsoft Word (.docx) o el formato de LibreOffice (.odt) aunque el aspecto de nuestro documento puede sufrir modificaciones, si vamos a enviar el archivo (por ejemplo un trabajo a un profesor) es preferible descargarlo como Documento PDF (.pdf), que conserva la forma de nuestro trabajo siempre.</p>
+<p>La única desventaja que tienen los documentos PDF es que no se pueden modificar.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sabías qué...</p>
+<p>Una forma rápida de enviar un documento de Google Docs es mediante la opción Archivo -&gt; Enviar por correo electrónico adjunto, que nos permite enviar el documento actual mediante correo electrónico en un solo paso.</p>
+<p>Otra opción interesante es Archivo -&gt; Historial de versiones -&gt; Ver el historial de versiones, que nos permite ver y volver a cualquier momento en la edición del documento, una opción muy útil si hemos borrado algo por error durante la edición.</p>
+<p>Aunque Google Docs es un editor de textos online, si lo instalamos en nuestro dispositivo, podemos editar un documento sin necesidad de estar conectados a Intenet, marcando la opción Archvo -&gt; Activar acceso sin conexión.</p>
+</div>
+<h3 id="manejando-el-texto">Manejando el texto</h3>
+<p>Cuando creamos documento nuevo Google Docs, tendremos una página en blanco donde podremos escribir dentro de un recuadro que nos delimita los márgenes (Ya veremos cómo configurarlos).</p>
+<p>Una de las operaciones que más se realiza en un procesador de textos es la de seleccionar texto, para esto existen los siguientes métodos:</p>
+<p>Con el botón izquierdo del ratón presionado y arrastrándolo por el texto veremos como se marca el área que nosotros recorremos con azul, esto nos indica la zona del texto seleccionada. De esta manera podremos marcar fácilmente la porción de texto con la que deseamos trabajar.</p>
+<p><strong>Otras maneras de realizar esta tarea es la de hacer clic sobre el texto, lo cual hará lo siguiente:</strong></p>
+<ul>
+<li>
+<p>Con dos clics marcamos una palabra entera.</p>
+</li>
+<li>
+<p>Con tres clics un párrafo entero.</p>
+</li>
+<li>
+<p>Con la combinación de teclas Control + A seleccionamos todo el texto.</p>
+</li>
+</ul>
+<p><strong>Para copiar texto podemos hacerlo de la siguiente forma:</strong></p>
+<ul>
+<li>
+<p>Eligiendo del menú la opción Editar -&gt; Copiar.</p>
+</li>
+<li>
+<p>Con la combinación de teclas Control + C.</p>
+</li>
+</ul>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-6.png"><img alt="" src="../media/03-gdocs-6.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p><strong>Para cortar texto podemos hacerlo de la siguiente forma:</strong></p>
+<ul>
+<li>
+<p>Eligiendo del menú la opción Editar -&gt; Cortar.</p>
+</li>
+<li>
+<p>Con la combinación de teclas Control + X.</p>
+</li>
+</ul>
+<p><strong>Para pegar texto copiado podemos hacerlo de la siguiente forma:</strong></p>
+<ul>
+<li>
+<p>Eligiendo del menú la opción Editar -&gt; Pegar.</p>
+</li>
+<li>
+<p>Con la combinación de teclas Control + V.</p>
+</li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Sabías qué...</p>
+<p>Se puede copiar texto de otro documento o de una página de Internet. Una opción muy interesante es Editar -&gt; Copiar sin formato, muy útil cuando copiamos texto de páginas de Internet (Como Wikipedia), ya que nos elimina los hipervínculos, las negritas, inclinadas, etc.</p>
+<p>A veces necesitamos escribir un carácter que no está en el teclado, entonces podemos insertarlo mediante la opción Insertar -&gt; Caracteres especiales.</p>
+</div>
+<p><strong>Si nos equivocamos y queremos deshacer los cambios hechos (por ejemplo si borramos texto), tenemos varias opciones:</strong></p>
+<ul>
+<li>
+<p>Con el icono Deshacer de la barra de herramientas. (&lt;-)</p>
+</li>
+<li>
+<p>Eligiendo del menú la opción Edición -&gt; Deshacer.</p>
+</li>
+<li>
+<p>Con la combinación de teclas Control + Z.</p>
+</li>
+</ul>
+<p><strong>Se pueden deshacer tantos pasos comp querramos y si nos pasamos deshaciendo, existe la opción rehacer, con la que también tenemos varias opciones:</strong></p>
+<ul>
+<li>
+<p>Con el icono Rehacer de la barra de herramientas. (-&gt;)</p>
+</li>
+<li>
+<p>Eligiendo del menú la opción Edición -&gt; Rehacer.</p>
+</li>
+<li>
+<p>Con la combinación de teclas Control + Y.</p>
+</li>
+</ul>
+<h3 id="formateando-un-documento">Formateando un documento</h3>
+<p>Formatear un documento es darle la forma que queremos para hacerlo más atractivo, cambiando la forma de la página, el tipo, tamaño y color de la letra o la alineación de los párrafos.</p>
+<p>En el menú Formato encontramos opciones para realizar estos cambios, aunque cada opción tiene su correspondiente botón en a barra de herramientas.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-7.png"><img alt="" src="../media/03-gdocs-7.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<h4 id="formato-de-pagina">Formato de página</h4>
+<p>También podemos dar formato al área de trabajo, cambiando el tamaño de la hoja, la orientación y la separación de los márgenes. Para ello, activaremos la siguiente ventana en Archivo -&gt; Configuración de la página.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-8.png"><img alt="" src="../media/03-gdocs-8.png" width="600"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Nos aparece este cuadro de configuración, donde podemos cambiar la orientación, el tamaño y el color de la hoja y las medidas de los márgenes de la hoja. También podemos establecer nuestra configuración de página predeterminada.</p>
+<div class="admonition info">
+<p class="admonition-title">Ejemplo</p>
+<p>En el siguiente trabajo sobre Don Quijote de la Mancha hemos utilizado la siguiente configuración de página. Observa los cambios que se han hecho respecto a la configuración predeterminada.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Resultado</th>
+<th>configuración</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-9.png"><img alt="" src="../media/03-gdocs-9.png"/></a></td>
+<td><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-10.png"><img alt="" src="../media/03-gdocs-10.png"/></a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="formato-de-texto">Formato de texto</h4>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-11.png"><img alt="" src="../media/03-gdocs-11.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>En el <span color="yellow">ejemplo</span> anterior hay palabras que tienen distintos tamaños, otras están en negrita y otras inclinadas.</p>
+<p>Mediante la barra de herramientas podemos cambiar fácilmente el tipo fuente de la letra, el tamaño o el tipo de letras (Negrita, inclinada o subrayada), así como el color de las letras.</p>
+<p>Se pueden acceder a más fuentes además de las predeterminadas desde el menú de fuentes.</p>
+<p>También podemos acceder a varias de estas opciones desde la opción del menú Formato -&gt; Texto y a algunas más como superíndice y subíndice. En este menú se muestran las combinaciones de teclas que nos permiten cambiar las opciones del texto.</p>
+<h4 id="formato-de-parrafo">Formato de párrafo</h4>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-12.png"><img alt="" src="../media/03-gdocs-12.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>En la barra de herramientas hay cuatro iconos que nos permite cambiar la alineación de los párrafos a la izquierda, centrado, a la derecha o justificado.</p>
+<p>En los trabajos que se vayan a imprimir se suele utilizar la alineación justificada por resultar más equilibrado, pero en documentos que sólo se van a leer en pantallas (PC, tablet o móvil) se suele utilizar una alineación a la izquierda para una mejor lectura.</p>
+<p>También podemos acceder a varias de estas opciones desde la opción del menú Formato -&gt; Alinear y aplicar sangría y a algunas más como Opciones de sangría.</p>
+<h5 id="la-sangria">La sangría</h5>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-13.png"><img alt="" src="../media/03-gdocs-13.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>En algunos textos, se pone la primera palabra de un párrafo o el párrafo entero más a la derecha que el resto del párrafo; esto es lo que se conoce como sangría.</p>
+<p>Podemos aumentar o disminuir la sangría de un párrafo entero mediante los botones correspondientes de la barra de tareas o mediante la opción <strong>Formato -&gt; Alinear y aplicar sangría -&gt; Aumentar o reducir sangría</strong>
+Con la opción Formato -&gt; Alinear y aplicar sangría -&gt; Opciones de sangría, llegamos a la siguiente ventana de configuración donde podemos configurar una sangría a todo el párrafo a la izquierda o derecha del mismo o podemos aplicar una sangría especial al párrafo o párrafos seleccionados:</p>
+<ul>
+<li><strong>Sangría en la Primera línea</strong>: Se aplica solo a la primera línea del párrafo.</li>
+<li><strong>Sangría Francesa</strong>: Se aplica a todo el párrafo excepto a la primera línea.</li>
+</ul>
+<h4 id="listas-de-texto">Listas de texto</h4>
+<p>En ocasiones necesitamos hacer una lista o enumeración de palabras o frases, para ello disponemos de numeración y viñetas:</p>
+<ul>
+<li>Eligiendo los botones de la barra de formato (Listas numeradas o listas con viñetas).</li>
+<li>Eligiendo la opción <strong>Formato -&gt; Viñetas y numeración</strong></li>
+</ul>
+<h3 id="insertando-imagenes">Insertando imágenes</h3>
+<p>Para enriquecer nuestros documentos podemos insertar imágenes en cualquier parte del mismo, para ello tenemos varias posibilidades:</p>
+<ul>
+<li>Insertar una imagen guardada en el ordenador.</li>
+<li>Insertar una imagen de Internet.</li>
+<li>Insertar una imagen guardada en Google Drive o en Google fotos.</li>
+<li>Insertar una imagen mediante su URL (Dirección de Internet).</li>
+<li>Insertar una imagen tomada directamente con la cámara del dispositivo</li>
+</ul>
+<p>Para insertar una imagen desde un archivo debe situarse el cursor en la parte del documento donde desea insertarla, y a continuación elegir <strong>Insertar -&gt; Imagen &gt;</strong>, entonces se abre el siguiente menú de selección. También podemos llegar al mismo menú de selección pulsando el icono de Insertar imagen, que está señalado en la siguiente imagen.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-14.png"><img alt="" src="../media/03-gdocs-14.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>En el caso de elegir <strong>Insertar -&gt; Imagen -&gt; Buscar en la Web</strong>, se nos abre una pequeña ventana vertical a la derecha de Google Docs con las imágenes buscadas en Google, para que podamos insertarlas directamente pulsando el botón insertar o arrastrándolas hasta nuestro documento, como podemos ver en la siguiente imagen:</p>
+<p>(Se pueden insertar varias imágenes a la vez seleccionándolas de la ventana de búsqueda).</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-15.png"><img alt="" src="../media/03-gdocs-15.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<h5 id="propiedades-de-una-imagen">Propiedades de una imagen</h5>
+<p>Cuando pulsamos sobre una imagen insertada en el documento, la barra de herramientas cambia, y aparecen nuevos iconos para cambiar la imagen:</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-16.png"><img alt="" src="../media/03-gdocs-16.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<ul>
+<li><strong>Puntos de redimensionamiento de la imagen</strong>: Sirven para cambiar el tamaño de la imagen, con el punto redondo podemos girarla.</li>
+<li><strong>Iconos de bode de la imagen</strong>: Nos permite insertar un borde a la imagen  y cambiar su color, su grosor y su forma.</li>
+<li><strong>Icono de recorte de la imagen</strong>: Con el podemos recortar la imagen desde cualquier borde.</li>
+<li><strong>Opciones de imagen</strong>: Al pulsar sobre el mismo, nos aparece un menú de opciones de imagen a la derecha de nuestro documento.</li>
+<li><strong>Reemplazar imagen</strong>: Sirve para cambiar la imagen seleccionada por otra. Al pulsarlo nos vuelve a aparecer el menú de selección que nos permite insertar imágenes.</li>
+<li><strong>Iconos de ajuste de texto</strong>: Nos permite configurar la posición del texto con respecto a nuestra imagen.</li>
+</ul>
+<div class="admonition error">
+<p class="admonition-title">Modificando las propiedades</p>
+<p>Mediante el menú de opciones de imagen que nos aparece a la derecha del documento podemos modificar varios aspectos de la imagen. Además, si hacemos clic sobre una imagen aparece un menú con muchas de las opciones que permiten modificar la imagen.</p>
+</div>
+<ul>
+<li><strong>Tamaño y rotación</strong>: En este menú podemos modificar el tamaño y la rotación de la imagen con mayor precisión que con los puntos de redimensionamiento.</li>
+<li><strong>Ajuste de texto</strong>: Con las opciones de este menú podemos modificar la posición del texto respecto a la imagen al igual que con los iconos de ajuste de texto.</li>
+<li><strong>Posición</strong>: Este menú esta relacionado con el anterior y nos permite modificar la distancia entre el texto y la imagen.</li>
+<li><strong>Recolorear</strong>: Con este menú podremos aplicar varios filtros de color a la imagen.</li>
+<li><strong>Ajustes</strong>: Nos permita modificar la transparencia, el brillo y el contraste de la imagen seleccionada.</li>
+</ul>
+<h3 id="edicion-avanzada">Edición avanzada</h3>
+<p>Hasta ahora hemos visto cómo añadir y formatear texto y fotos a nuestros documentos, pero con los editores de textos modernos pueden conseguirse textos más profesionales, mediante la inclusión de encabezados y pie de página, numeración automática, tablas, gráficos, índices, etc. Veremos todo esto a continuación.</p>
+<h4 id="encabezados">Encabezados</h4>
+<p>Los encabezados son palabras o frases que aparecen en todas las páginas del documento, se emplea mucho en los libros de literatura para poner el titulo del libro o del capítulo.</p>
+<p>Para activar el encabezamiento, hacemos doble clic en el margen superior del documento, entonces podremos escribir en el encabezado.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-17.png"><img alt="" src="../media/03-gdocs-17.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Nos aparecen varias opciones relacionadas con el encabezado:</p>
+<ul>
+<li>
+<p><strong>Primer página diferente</strong>: No incluye el encabezado en la primer página, por si añadimos una portada o un índice.</p>
+</li>
+<li>
+<p><strong>Formato de encabezado</strong>: Nos permite definir las dimensiones de los márgenes del encabezado y elegir un encabezado distinto para página pares e impares.</p>
+</li>
+<li>
+<p><strong>Números de página</strong>: Con esta opción podemos añadir un número de página en el encabezado. El número de página se incrementa automáticamente.</p>
+</li>
+<li>
+<p><strong>Quitar encabezado</strong>: Deja el encabezado en blanco.</p>
+</li>
+</ul>
+<h4 id="pie-de-pagina">Pie de página</h4>
+<p>Los pie de página son palabras o frases que aparecen en todas las páginas del documento, se emplea mucho para añadir el número de página.</p>
+<p>Para activar el pie de página, hacemos doble clic en el margen inferior del documento, entonces podremos escribir en el pie de página.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-18.png"><img alt="" src="../media/03-gdocs-18.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>El pie de página tiene exactamente las mismas opciones que el encabezado, por lo que no vamos a repetir su explicación. Para dejar de editar el pie de página o el encabezado, hay que hacer clic dentro del área de edición del documento.</p>
+<h4 id="columnas">Columnas</h4>
+<p>Google Docs permite escribir más de una columna por página, para ello hay que entrar en el menú Formato -&gt; Columnas y elegimos la cantidad de columnas.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-19.png"><img alt="" src="../media/03-gdocs-19.png" width="500"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Si pulsamos en Más opciones; podremos ajustar la distancia entre columnas y podremos insertar líneas verticales entre las columnas.</p>
+<p>A veces es útil insertar una línea horizontal en un documento para separar secciones, para hacerlo, hay que elegir la opción <strong>Insertar -&gt; Línea horizontal.</strong></p>
+<h3 id="tablas">Tablas</h3>
+<p>A veces, en un texto, hay que recoger datos que pueden organizarse y presentarse en forma de tablas. Google Docs permite insertar tablas de cualquier número de celdas (Cada uno de los cuadros de la tabla ) y modificarlas libremente. Hay en el menú una opción llamada Tabla, donde se recogen todas las operaciones que podemos realizar relacionadas con las tablas.</p>
+<p>Para insertar una tabla en un documento, situamos el cursor en el sitio adecuado y elegimos la opción Insertar -&gt; Tabla del menú . Entonces elegimos con el ratón la dimensión de la tabla señalando las columnas y filas correspondientes (4 columnas y 3 filas en el ejemplo siguiente):</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-20.png"><img alt="" src="../media/03-gdocs-20.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Nos aparece la tabla vacía con todas las celdas en blanco y además aparecen nuevos iconos en la barra de herramientas que sirven para rellenar la celda o celdas seleccionadas de algún color y para modificar el color, grosor y tipo de línea del borde de las celdas.</p>
+<p>Si pulsamos en cualquiera de las celdas de la tabla se activa la opción Formato -&gt; Tabla, (que normalmente está desactivada), lo que hace que se muestre un menú con bastantes opciones de operaciones sobre la tabla:</p>
+<ul>
+<li>Insertar filas o columnas.</li>
+<li>Eliminar filas o columnas (o la tabla entera)</li>
+<li>Distribuir las filas o columnas para que midan lo mismo.</li>
+<li>Combinar o separar celdas.</li>
+</ul>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-21.png"><img alt="" src="../media/03-gdocs-21.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Además podemos acceder a las Propiedades de tabla, con las que podremos configurar otras cosas como la alineación vertical, las dimensiones exactas de cada celda, la sangría de los textos dentro de las celdas, la alineación de la tabla dentro del párrafo, etc.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-22.png"><img alt="" src="../media/03-gdocs-22.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<h4 id="indices">Índices</h4>
+<p>En todos los documentos largos es conveniente incluir un índice que nos indique la página donde se encuentra cada título y subtítulo.</p>
+<p>Google Docs es capaz de generar un índice automáticamente, para ello, ponemos el cursor en la parte del documento en la que queremos insertar el índice y elegimos del menú <strong>Insertar -&gt; Índice</strong>, entonces nos aparecerá una ventana como la siguiente en la que podemos elegir insertar un índice con números o insertar un índice con enlaces azules que te llevan directamente a la página donde se encuentra el título pulsado:</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-23.png"><img alt="" src="../media/03-gdocs-23.png" width="600"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Al insertar el índice, nos aparece una línea como la siguiente en el lugar donde teníamos el cursor y tal y como dice, hay que ir añadiendo encabezados (los títulos del documento) que están en la opción Formato -&gt; Estilos de párrafo.</p>
+<p>A los títulos de primer nivel (Los que solo tienen un número), los marcaremos con el Estilo de párrafo Título 1</p>
+<p>A los títulos de segundo nivel (Los que tienen dos números), los marcaremos con el Estilo de párrafo Título , y así sucesivamente.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-24.png"><img alt="" src="../media/03-gdocs-24.png" width="600"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<div class="admonition info">
+<p class="admonition-title">Muy importante</p>
+<p>Cada vez que añadimos títulos a nuestro documento, hay que pulsar el botón de la izquierda en forma de flecha circular, para que se actualice el indice.</p>
+</div>
+<h3 id="wordart">WordArt</h3>
+<p>Con WordArt podemos hacer títulos vistosos, con letras grandes de colores, para insertar un título con WordArt hay que abrir el editor de dibujo (que ya veremos en la próxima clase), para ello hay que elegir la opción <strong>Insertar -&gt; Dibujo -&gt; + Nuevo</strong>, con lo que accedemos al editor de dibujo.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-25.png"><img alt="" src="../media/03-gdocs-25.png" width="600"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>En dicho editor de dibujo, elegimos <strong>Acciones -&gt; WordArt</strong>, con lo que se nos mostrará un cuadro de diálogo para escribir el título que queramos.</p>
+<p>Con los botones de la barra de herramientas del editor, es fácil modificar el tipo de letra, el color de relleno y de línea, el grosor, el ángulo, etc.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-26.png"><img alt="" src="../media/03-gdocs-26.png" width="600"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Una vez terminado nuestro WordArt, pulsamos el botón Guardar y cerrar para insertarlo en nuestro documento. Se puede cambiar un WordArt ya insertado en el documento haciendo doble clic sobre él.</p>
+<h3 id="dibujos">Dibujos</h3>
+<p>Ya vimos en la clase anterior cómo acceder al editor de dibujos, para ello hay que elegir la opción <strong>Insertar -&gt; Dibujo -&gt; + Nuevo</strong>, con lo que accedemos al editor de dibujo.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-27.png"><img alt="" src="../media/03-gdocs-27.png" width="600"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>El editor de dibujo consta de una hoja transparente donde podemos insertar varios objetos que son accesibles a través de los iconos de la barra de herramientas de dibujo. (Cuando insertamos y seleccionamos un objeto, aparecen más iconos a la derecha para realizar distintas operaciones sobre el objeto seleccionado).</p>
+<p>Si elegimos la opción Acciones -&gt; Descargar, podremos descargar un documento PDF o una imagen para añadir al fondo de nuestro dibujo y podremos dibujar y añadir objetos encima de la misma.</p>
+<p>También podemos acceder a WordArt.</p>
+<p>Además, a través de este menú podemos alinear, distribuir o girar los objetos insertados y podemos agrupar y desagrupar objetos.</p>
+<p>Los objetos se clasifican en capas a medida que los vamos insertando, la opción ordenar nos permite modificar el orden de las capas.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-28.png"><img alt="" src="../media/03-gdocs-28.png" width="600"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>En el menú de Líneas, tenemos a nuestra disposición una gran cantidad de tipos de línea, rectas, curvas, a mano alzada, con flechas, etc.</p>
+<p>Al insertar una línea nos aparecen varios iconos más que nos permiten cambiar el color, grosor y tipo de línea.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-29.png"><img alt="" src="../media/03-gdocs-29.png" width="600"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>En el menú de Formas tenemos gran cantidad de formas clasificadas en cuatro grupos, dichas formas pueden ser redimensionadas, coloreadas, se les puede cambiar el tipo de borde y se puede escribir dentro de ellas (haciendo doble clic en la misma).</p>
+<p>Las formas son muy útiles para hacer esquemas e insertarlos en nuestros trabajos.</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-30.png"><img alt="" src="../media/03-gdocs-30.png" width="600"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<p>Por último tenemos la opción de insertar un cuadro de texto en el que podemos escribir, al insertar un cuadro de texto nos aparecen los iconos de edición de texto para que podamos cambiar las propiedades del texto y además los iconos de Forma que nos permite cambiar el color del cuadro de texto y del borde. (Se puede configurar un cuadro de texto con fondo transparente y sin borde, para insertar solo texto).</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-31.png"><img alt="" src="../media/03-gdocs-31.png" width="600"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Si pulsamos con el botón derecho sobre el fondo, podemos cambiar el color del fondo, pudiendo añadir colores degradados. La alineación del dibujo dentro del documento se realiza igual que las imágenes insertadas.</p>
+</div>
+<h3 id="graficos">Gráficos</h3>
+<hr/>
+<h2 id="ejercicios">🧰 EJERCICIOS</h2>
+<p>1.- ❎ Elige el editor de <strong>mark down</strong> que quieras (Visual Studio code o Typora) y maqueta el siguiente documento eligiendo la temática que prefieras, exporta el documento a <strong>PDF</strong> y súbelo a <strong>Aules</strong>:</p>
+<pre><code>- Una imagen de cabecera que ocupe todo el ancho de la página
+- Un título 1 que describa el documento
+- Un párrafo resumen con al menos 200 palabras que describa lo que se está viendo
+- Una tabla,de al menos 4 columnas, con información detallada
+- Una lista numerada, de al menos 5 elementos, con información extra del documento
+- Un último bloque con al menos una noticia de actualidad
+</code></pre>
+<div class="admonition warning">
+<p class="admonition-title">Temática</p>
+<p>Los temas propuestos para el ejercicio han sido los siguientes:</p>
+<ul>
+<li>Info y resultados del mundial de fútbol <strong>Qatar 2022</strong></li>
+<li>Liga <strong>CS:GO</strong></li>
+<li><strong>Pokémon</strong></li>
+<li><strong>Anime</strong> con info sobre actores y actrices de doblaje y sus personajes</li>
+<li>Universo <strong>Hollow Knight</strong></li>
+</ul>
+</div>
+<p>Tienes un ejemplo en <a href="../media/hk.pdf">este enlace</a></p>
+<hr/>
+<p>2.- ❎ En el ejercicio anterior, crea un archivo <strong>.md</strong> por cada uno de los elementos de la lista numerada, pero sólo de los 5 primeros. En cada uno de estos nuevos archivos debe aparecer la información correspondiente al nombre. Después, crea un menú a partir de una tabla con estos 5 elementos que contengan, cada uno, un enlace al correspondiente archivo <strong>.html</strong> que exportarás desde los nuevos <strong>.md</strong> que has creado.</p>
+<p>Por último, en cada uno de los nuevos <strong>.md</strong> creados (máximo 5) debes añadir un enlace para que vaya al inicio (el primer <strong>.md</strong> creado).</p>
+<div class="admonition error">
+<p class="admonition-title">Cuidado</p>
+<p>Nombra bien los archivos html que exportes y acuérdate ya que los necesitas para crear los enlaces. Por otro lado, <strong>DEBES RECORDAR</strong> exportar a <strong>.html</strong> el primer <strong>.md</strong> creado en el ejercicio 1 para que exista ese enlace.</p>
+</div>
+<hr/>
+<p>3.- ¿Qué es una suite ofimática y qué programas suele tener? Busca en Internet otras suites ofimáticas aparte de las vistas en el tema.</p>
+<hr/>
+<p>4.- ¿Qué se puede hacer con un procesador de texto moderno?.  Abre el procesador de textos Google Docs. Dibuja la ventana que aparece y señala sus partes principales.</p>
+<hr/>
+<p>5.- Escribe las opciones principales de la barra de herramienas de Google Docs.</p>
+<hr/>
+<p>6.- Explica qué es Google Drive, sus principales características y de qué manera se enlaza con la <em>suite de Google Docs</em></p>
+<hr/>
+<p>7.- Describe los tres métodos empleados para abrir un documento de Google Docs. ¿Qué opciones tenemos a la hora de abrir documentos en Google Docs? ¿En qué formatos de texto puede guardar los documentos Google Docs? ¿Por qué se utiliza tanto el formado de texto PDF en el tráfico de documentos por Internet?</p>
+<hr/>
+<p>8.- Abre Google Docs, crea un documento de texto nuevo y escribe una pequeña frase. Envía el archivo por correo electrónico a tu profesor en formato PDF, como asunto escribe "Ejercicio de Google Docs" y como mensaje escribe tu nombre, apellidos y clase.</p>
+<hr/>
+<p>9.- Elabora un documento en en Google Docs que recoja los atajos de teclado más importantes a la hora de editar o crear un documento de texto. Como mínimo tiene que haber 20 elementos diferentes y que sean los más importantes o más usados tales como seleccionar una palabra, una línea entera, poner negrita, cursiva o subrayado, seleccionar todo el texto del documento, crear un salto de página entre otros.</p>
+<hr/>
+<p>10.- Crea un documento de Google Docs que tenga las siguientes características:</p>
+<pre><code>    Tamaño del papel:
+        Alto: 10,50 cm
+        Ancho: 20,50 cm
+
+    Márgenes:
+        Derecha e izquierda de 1,00 cm
+        Arriba y abajo de 2,00 cm
+
+    Orientación el papel: Vertical
+
+    Escribe a continuación tres párrafos alineados uno a la izquierda, otro a la derecha y otro en el centro.
+
+    Después realiza una lista numerada de cinco palabras.
+
+    Para terminar, realiza otra lista de otras cinco palabras con viñetas.
+</code></pre>
+<hr/>
+<p>11.- Crea un docuemtno en Google Docs con el siguiente texto y formatealo de tal forma que quede como en la imagen de abajo.</p>
+<div class="highlight"><pre><span></span><code>Federico García Lorca
+Nació en el municipio de Fuente Vaqueros, Granada (España), en el seno de una familia de posición económica desahogada, el 5 de junio de 1898, y fue bautizado con el nombre de Federico del Sagrado Corazón de Jesús García Lorca; su padre fue Federico García Rodríguez (1859-1945), un hacendado, y su madre, Vicenta Lorca Romero (1870-1959) fue la segunda esposa de su padre, maestra de escuela que fomentó el gusto literario de su hijo.
+Desde los 2 años, según uno de sus biógrafos, Edwin Honig, Federico García Lorca mostró su habilidad para aprender canciones populares, y a muy corta edad escenificaba en miniatura oficios religiosos. Su salud fue frágil y no empezó a caminar hasta los cuatro años. Leyó en su casa la obra de Víctor Hugo y de Miguel de Cervantes. Como estudiante fue algo irregular. De niño lo pusieron bajo la tutela del maestro Rodríguez Espinosa, en Almería, ciudad en la que residió con su familia entre 1906 y 1909. Inició el bachillerato de vuelta a su provincia natal y abandonó la Facultad de Derecho de Granada para instalarse en la Residencia de Estudiantes de Madrid (1918–1928); pasado un tiempo, regresó a la Universidad de Granada, donde se licenció en Derecho, aunque nunca ejerció la abogacía, puesto que su vocación era la literatura.
+El olivo donde fue fusilado.
+La ubicación meridional de Granada, donde se encontraba viva la herencia mora, el folclore, el oriente y una geografía agreste, quedó impresa en toda su obra poética, donde los romanceros y la épica se funden de manera perceptible. Después de su madre, fue Fernando de los Ríos quien estimuló el talento del entonces pianista en favor de la poesía; así, en 1917 escribió su primer artículo sobre José Zorrilla, en su aniversario.
+La España de García Lorca era la de la Edad de Plata, heredera de la Generación del 98, con una rica vida intelectual donde los nombres de Francisco Giner de los Ríos, Benito Pérez Galdós, Miguel de Unamuno y, poco después, Salvador de Madariaga y José Ortega y Gasset imprimían el sello distintivo de una crítica contra la realidad de España.
+Influyeron, además, en la sensibilidad del poeta en formación Lope de Vega, Juan Ramón Jiménez, Antonio Machado, Manuel Machado, Ramón del Valle-Inclán, Azorín y el Cancionero popular.
+</code></pre></div>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-ejercicio-11.png"><img alt="" src="../media/03-gdocs-ejercicio-11.png" width="800"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<hr/>
+<p>12.- Vamos a realizar una portada para el texto de la clase anterior en una página nueva de Google Docs tal y como sale en el siguiente ejemplo:</p>
+<pre><code>    - Modifica el color de la página y reduce todos los márgenes a 1 cm.
+    - Inserta cuatro imágenes de Fde lo que quieras desde el buscador en Google Docs.
+    - Añade un borde a las imágenes y modifica su tamaño y rotación
+    - Recolorea las imágenes y retoca los ajustes de las mismas.
+    - Añade el título y los nombres de los autores a la portada.
+</code></pre>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-ejercicio-12.png"><img alt="" src="../media/03-gdocs-ejercicio-12.png" width="400"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<hr/>
+<p>13.- Imagina que eres el maquetador del periódico "Diario del IES Carrús" y que te pasan la siguiente noticia para que tú le des formato al texto. Abre el documento de la izquierda Google Docs pulsando sobre el mismo y modifícalo según las indicaciones de abajo para darle la apariencia de un periódico:</p>
+<pre><code>    - Ponle al título un formato adecuado.
+    - Distribuye el texto en dos columnas separadas por un espacio de 1 cm y una línea
+    - Aplica una alineación justificada a todo el texto y cambia el tipo de letra a Times New Roman.
+    - Separa los párrafos e incluye una sangría de 1 cm. en la primera línea de cada uno de ellos.
+    - Busca en Internet dos fotos alusivas al tema e insértalas en el texto.
+    - Incluye un encabezamiento con el nombre del periódico y una línea debajo del mismo.
+    - Incluye un pie de página con el número de página centrado y una línea encima del mismo.
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Texto original</th>
+<th>Resultado Final</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-ejercicio-13a.png"><img alt="" src="../media/03-gdocs-ejercicio-13a.png"/></a></td>
+<td><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-ejercicio-13b.png"><img alt="" src="../media/03-gdocs-ejercicio-13b.png"/></a></td>
+</tr>
+</tbody>
+</table>
+<hr/>
+<p>14.- Crea un documento nuevo en Google Docs y realiza las siguientes actividades:</p>
+<figure>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-width="100%" href="../media/03-gdocs-ejercicio-14.png"><img alt="" src="../media/03-gdocs-ejercicio-14.png" width="400"/></a>
+</p>
+<figcaption></figcaption>
+</figure>
+<pre><code>    - Inserta una tabla de 8 columnas y 5 filas.
+    - Elimina 2 columnas e inserta 3 filas más.
+    - Escribe las horas y los días de la semana, como en el ejemplo.
+    - Aumenta el tamaño de la columna de las horas para que se vean en una sola línea y distribuye uniformemente las demás columnas.
+    - Combina las celdas centrales como en el ejemplo de la derecha, para escribir la palabra RECREO.
+    - Centra el texto de cada celda tanto horizontal, como verticalmente.
+    - Realiza tu horario de clase en la tabla, coloreando las celdas de distintos colores según la asignatura.
+</code></pre>
+<hr/>
+<p>15.- Métete en Wikipedia y copia cualquier texto que te parezca interesante. A continuaciçon dale el formato adecuado según las siguientes instrucciones:</p>
+<pre><code>    - Realiza una portada con el título hecho con WordArt, una foto sobre el tema y los nombres de los autores.
+    - Justifica todo el texto.
+    - Inserta el título Comercio electrónico en el encabezado, alineado a la izquierda, pero que no aparezca en la portada.
+    - Inserta el número de página centrado en el pie de página.
+    - Selecciona cada título y aplica el estilo de párrafo correspondiente a cada uno.
+    - Incluye indice tras la portada.
+</code></pre>
+<hr/>
+<p>16.- Utiliza el editor de dibujo de Google Docs para realizar tres carteles, insertando formas y dibujos o fotos de Internet.</p>
+<pre><code>    - Un cartel para tu fiesta de cumpleaños.
+    - Un cartel para vender tu móvil usado.
+    - Un cartel para el día de los enamorados.
+    - Utiliza el formato de página apaisado y procura que sean atractivos y elaborados.
+</code></pre>
+<hr/>
 </article>
 </div>
 </div>
@@ -160,7 +1042,7 @@
           </a>
 </main>
 <footer class="md-footer">
-<nav aria-label="Pie" class="md-footer__inner md-grid">
+<nav aria-label="Pie" class="md-footer__inner md-grid" hidden="">
 <a aria-label="Anterior: Tema 2 - Comunicaciones internas y externas" class="md-footer__link md-footer__link--prev" href="../02-comunicaciones/" rel="prev">
 <div class="md-footer__button md-icon">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
@@ -205,7 +1087,7 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.top", "header.autohide", "toc.integrate"], "search": "../assets/javascripts/workers/search.ecf98df9.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.config.lang": "es", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "B\u00fasqueda", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version.title": "Seleccionar versi\u00f3n"}}</script>
-<script src="../assets/javascripts/bundle.48f2be22.min.js"></script>
-<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "width": "100%", "height": "auto", "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom"});})</script></body>
+<script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.expand", "navigation.top", "header.autohide", "toc.integrate"], "search": "../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.config.lang": "es", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "B\u00fasqueda", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version.title": "Seleccionar versi\u00f3n"}}</script>
+<script src="../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
