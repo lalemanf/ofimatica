@@ -584,7 +584,9 @@ En ocasiones necesitamos escribir una fórmula o una expresión matemática y no
 También podemos hacer visible la barra de herramientas de ecuaciones con la opción Ver -> Mostrar la barra de herramientas de ecuaciones del menú.
 
 
-
+|Menu Insertar -> Ecuación|Listado de fórmulas|
+|-|-|
+|![](media/03-gdocs-formulas.png)|![](media/03-gdocs-formulas-b.png)|
 
 
 
